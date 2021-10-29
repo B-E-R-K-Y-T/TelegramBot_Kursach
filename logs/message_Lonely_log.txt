@@ -1,0 +1,57 @@
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = А я нет
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Никита Беркут', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = Я не знаю что ответить, так как разработчик не вложил в меня такие знания 😢
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Как так?
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Никита Беркут', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = Я не знаю что ответить, так как разработчик не вложил в меня такие знания 😢
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Привет
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Никита Беркут', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = <_io.BufferedReader name='sticker_putin_1.webp'>
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Как дела
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Никита Беркут', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = Я не знаю что ответить, так как разработчик не вложил в меня такие знания 😢
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Как дела?
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Никита Беркут', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = Хорошо!
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Как жизнь?
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Никита Беркут', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = Я не знаю что ответить, так как разработчик не вложил в меня такие знания 😢
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Привет
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Никита Беркут', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = <_io.BufferedReader name='sticker_putin_2.webp'>
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Привет
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Никита Беркут', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = <_io.BufferedReader name='sticker_putin_1.webp'>
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Стикер
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Никита Беркут', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = <_io.BufferedReader name='sticker_putin_2.webp'>
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Стикер
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Никита Беркут', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = <_io.BufferedReader name='sticker_patriarch_2.webp'>
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Стикер
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Никита Беркут', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = <_io.BufferedReader name='sticker_putin_1.webp'>
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Стикерр
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Никита Беркут', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = <_io.BufferedReader name='sticker_patriarch_2.webp'>
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Стикерррррр
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Никита Беркут', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = <_io.BufferedReader name='sticker_patriarch_1.webp'>
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Привет
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Владимир Богданов', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = Привет! 👋
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Привет
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Владимир Богданов', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = <_io.BufferedReader name='sticker_patriarch_1.webp'>
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Привет
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Владимир Богданов', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = <_io.BufferedReader name='sticker_patriarch_2.webp'>
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Стикеррр
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Владимир Богданов', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = <_io.BufferedReader name='sticker_patriarch_1.webp'>
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Кб
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Владимир Богданов', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = Я не знаю что ответить, так как разработчик не вложил в меня такие знания 😢
+
+USER_NAME[ {'id': 1015799671, 'is_bot': False, 'first_name': 'Lonely', 'username': 'mea_idolum', 'last_name': 'Nun', 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = Жаль
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Владимир Богданов', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = Я не знаю что ответить, так как разработчик не вложил в меня такие знания 😢
+

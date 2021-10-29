@@ -1,0 +1,5828 @@
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Шифр понял типо?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Олуху*
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+НУ да! Олоха - Олах!
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Шифр понял типо?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А суский жеребенок?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ребенук русни
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Жесть, воскл знак в коде писать та ещё задачка!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250157 : https://sun9-61.userapi.com/impf/c840136/v840136035/5fe69/oOffB9KxXZU.jpg?size=351x351&quality=96&sign=7185f4182616622ac1805e84c75df129&c_uniq_tag=aWjlQc8J3ljxvqtD1O0uVk53EwnTIQGdbT5uMUhxTO8&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Жиза блин(
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Жесть, воскл знак в коде писать та ещё задачка!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Паскаль: ПРИСУТСТВУЕТ'); 
+	 End; 
+	 
+	 Case q of 
+	 
+	 0: Writeln('Александр Столетов: ОТСУТСТВУЕТ!'); 
+	 1: Writeln('Александр Столетов: ПРИСУТСТВУЕТ'); 
+	 End; 
+	 
+	 Case r of 
+	 
+	 0: Writeln('Дмитрий Менделеев: ОТСУТСТВУЕТ!'); 
+	 1: Writeln('Дмитрий Менделеев: ПРИСУТСТВУЕТ'); 
+	 End; 
+	 
+	 Case s of 
+	 
+	 0: Writeln('Жан Батист Ламарк: ОТСУТСТВУЕТ!'); 
+	 1: Writeln('Жан Батист Ламарк: ПРИСУТСТВУЕТ'); 
+	 End; 
+	 
+	 Case t of 
+	 
+	 0: Writeln('Аристотель: ОТСУТСТВУЕТ!'); 
+	 1: Writeln('Аристотель: ПРИСУТСТВУЕТ'); 
+	 End; 
+	 
+	 Case u of 
+	 
+	 0: Writeln('Наполеон I Бонапарт: ОТСУТСТВУЕТ!'); 
+	 1: Writeln('Наполеон I Бонапарт: ПРИСУТСТВУЕТ'); 
+	 End; 
+	 
+	 
+	 Case v of 
+	 
+	 0: Writeln('Александр I: ОТСУТСТВУЕТ!'); 
+	 1: Writeln('Александр I: ПРИСУТСТВУЕТ'); 
+	 End; 
+	 
+	 Case w of 
+	 
+	 0: Writeln('Иван IV Грозный: ОТСУТСТВУЕТ!'); 
+	 1: Writeln('Иван IV Грозный: ПРИСУТСТВУЕТ'); 
+	 End; 
+	 
+	 Case x of 
+	 
+	 0: Writeln('Иосиф Бродский: ОТСУТСТВУЕТ!'); 
+	 1: Writeln('Иосиф Бродский: ПРИСУТСТВУЕТ'); 
+	 End; 
+	 
+	 Case y of 
+	 
+	 0: Writeln('Сталин Иосиф Виссарионович: ОТСУТСТВУЕТ!'); 
+	 1: Writeln('Сталин Иосиф Виссарионович: ПРИСУТСТВУЕТ'); 
+	 End; 
+	 
+	 Case z of 
+	 
+	 0: Writeln('Кобзон Иосиф Давыдович: ОТСУТСТВУЕТ!'); 
+	 1: Writeln('Кобзон Иосиф Давыдович: ПРИСУТСТВУЕТ'); 
+	 End; 
+	 
+	Writeln(' '); 
+	Writeln('----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------'); 
+	Writeln(' '); 
+	 
+	 Write('Учеников пришло: '); 
+	 Write(a + b + 
+	 c + d + 
+	 e + f + 
+	 g + h + 
+	 i + j + 
+	 k + l + 
+	 m + n + 
+	 o + p + 
+	 q + r + 
+	 s + t + 
+	 u + v + 
+	 w + x + 
+	 y + z); 
+	 
+	 
+	Writeln(' '); 
+	 
+	Begin 
+	 
+	 If a = 1 then 
+	 
+	 a := 0 
+	 
+	 Else 
+	 
+	 a := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If b = 1 then 
+	 
+	 b := 0 
+	 
+	 Else 
+	 
+	 b := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If c = 1 then 
+	 
+	 c := 0 
+	 
+	 Else 
+	 
+	 c := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If d = 1 then 
+	 
+	 d := 0 
+	 
+	 Else 
+	 
+	 d := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If e = 1 then 
+	 
+	 
+	 e := 0 
+	 
+	 Else 
+	 
+	 e := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If f = 1 then 
+	 
+	 
+	 f := 0 
+	 
+	 Else 
+	 
+	 f := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If g = 1 then 
+	 
+	 
+	 g := 0 
+	 
+	 Else 
+	 
+	 g := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If h = 1 then 
+	 
+	 h := 0 
+	 
+	 
+	 Else 
+	 
+	 h := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If i = 1 then 
+	 
+	 i := 0 
+	 
+	 Else 
+	 
+	 i := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If j = 1 then 
+	 
+	 j := 0 
+	 
+	 Else 
+	 
+	 j := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If k = 1 then 
+	 
+	 k := 0 
+	 
+	 Else 
+	 
+	 k := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If l = 1 then 
+	 
+	 l := 0 
+	 
+	 Else 
+	 
+	 l := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If m = 1 then 
+	 
+	 
+	 m := 0 
+	 
+	 Else 
+	 
+	 m := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If n = 1 then 
+	 
+	 n := 0 
+	 
+	 
+	 Else 
+	 
+	 n := 1; 
+	 
+	End; 
+	Begin 
+	 
+	 If o = 1 then 
+	 
+	 
+	 o := 0 
+	 
+	 Else 
+	 
+	 o := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If p = 1 then 
+	 
+	 p := 0 
+	 
+	 Else 
+	 
+	 p := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If q = 1 then 
+	 
+	 
+	 q := 0 
+	 
+	 
+	 Else 
+	 
+	 q := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If r = 1 then 
+	 
+	 
+	 r := 0 
+	 
+	 Else 
+	 
+	 r := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If s = 1 then 
+	 
+	 
+	 s := 0 
+	 
+	 
+	 Else 
+	 
+	 s := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If t = 1 then 
+	 
+	 t := 0 
+	 
+	 Else 
+	 
+	 t := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If u = 1 then 
+	 
+	 u := 0 
+	 
+	 Else 
+	 
+	 u := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If v = 1 then 
+	 
+	 v := 0 
+	 
+	 Else 
+	 
+	 v := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If w = 1 then 
+	 
+	 w := 0 
+	 
+	 Else 
+	 
+	 w := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If x = 1 then 
+	 
+	 x := 0 
+	 
+	 Else 
+	 
+	 x := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If y = 1 then 
+	 
+	 y := 0 
+	 
+	 Else 
+	 
+	 y := 1; 
+	 
+	End; 
+	 
+	Begin 
+	 
+	 If z = 1 then 
+	 
+	 z := 0 
+	 
+	 Else 
+	 
+	 z := 1; 
+	 
+	End; 
+	 
+	 Write('Учеников не пришло: '); 
+	 Write(a + b + 
+	 c + d + 
+	 e + f + 
+	 g + h + 
+	 i + j + 
+	 k + l + 
+	 m + n + 
+	 o + p + 
+	 q + r + 
+	 s + t + 
+	 y + v + 
+	 w + x + 
+	 u + z); 
+	 
+	Writeln(' '); 
+	Writeln(' '); 
+	Writeln('----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------'); 
+	Writeln(' '); 
+	 
+	Begin 
+	 
+	 If a = 1 then 
+	 
+	Begin 
+	 
+	 Writeln(' ==================================================== '); 
+	 Writeln('Пульхерия Александровна'); 
+	 Writeln(' '); 
+	 Writeln('Телефон родителей: 8 - 800 - 555 - 35 - 35'); 
+	 
+	End 
+	 
+	Else 
+	 
+	 Write()
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Вот, писал вчера точку!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Какой милый :3
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+	Attachments:[
+	vk.com/photo208356599_456250157 : https://sun9-61.userapi.com/impf/c840136/v840136035/5fe69/oOffB9KxXZU.jpg?size=351x351&quality=96&sign=7185f4182616622ac1805e84c75df129&c_uniq_tag=aWjlQc8J3ljxvqtD1O0uVk53EwnTIQGdbT5uMUhxTO8&type=album
+		From: vk.com/album208356599_-3
+	]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Жесть ты крут! А мне лент
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Вот, писал вчера точку!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лент*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лент*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да ептыою
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да юптвю*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Сука!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Мб ты имел ввиду Лент* ???
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да ептвою**
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лент*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Сука!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лент*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Сука!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Нет, не так! Правильно Лент*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лент*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Сука!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лент*
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+ДА неееее же
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лент***
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Окей
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Понял?))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Попробуй ещё раз)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну я сомневаюсь
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я завязал с морфием, Джонни
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Попробуй ещё раз)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Смотри, я на танцы записался!
+Attachments:[
+vk.com/video218926155_456239038 : 
+	kill la kill
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Блин(
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Я завязал с морфием, Джонни
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		Попробуй ещё раз)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Это ты?!
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Смотри, я на танцы записался!
+	Attachments:[
+	vk.com/video218926155_456239038 : 
+		kill la kill
+	]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Да! Круто танцую?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Не обижайся, но ты выглядишь женственно
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Да норм, я привык уже :\
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+И «шорты» у тебя какие-то короткие
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Чтобы не жарко было
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну хорошо!
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Да норм, я привык уже :\
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ааааа! вот я затупил)
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Чтобы не жарко было
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250158 : https://sun9-47.userapi.com/impf/c831508/v831508035/13895/hBdUWpHsNWw.jpg?size=1334x750&quality=96&sign=8599bb03e442c1e80815f014449c9d71&c_uniq_tag=eEfyQXPtQnemaTmDZYLKw2sJbq7qnCJ0uwb_TxV4qMA&type=album
+	From: vk.com/album208356599_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ха - ха!)
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Ааааа! вот я затупил)
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		Чтобы не жарко было
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250159 : https://sun9-30.userapi.com/impf/c840431/v840431035/31840/3DKIOyYRds8.jpg?size=562x558&quality=96&sign=cc398ed91afdb5284442fe82615311a0&c_uniq_tag=fCANM07saZMlYPaVUsSpWxtR0Hr23yl5kMjj8oQAOHk&type=album
+	From: vk.com/album208356599_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+А она не посадет в турьму?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+За что?!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+За танцы с тобой
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Нуууу
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Хрен знает
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+-_-
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+-_-
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Тяжелые времена
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Как старухина манда!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Или змеи курага
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+После Чечни я хз где моя рука
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Но на это мне как то с высока
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ведь я убил того паука
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Прямо из ака
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лол)))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Спасибо!)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Блин будни сисадмина утомляют!
+Attachments:[
+vk.com/photo208356599_456250161 : https://sun9-24.userapi.com/impf/c841327/v841327035/49c95/U2rY4MWP11M.jpg?size=1536x2048&quality=96&sign=4ee25f3f425532a4f05011a4d4bc551e&c_uniq_tag=e_YDwC72dIohV1VAidOkgegXKnQTmq6vyUQbc9ezz9s&type=album
+	From: vk.com/album208356599_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Жиза!!! Я один раз открыл блокнот, а там написано:
+Attachments:[
+vk.com/photo438615299_456239719 : https://sun9-84.userapi.com/impf/c840428/v840428965/35e5b/ZwPQGVFTMew.jpg?size=1832x1079&quality=96&sign=ff89c52426c02a33208bd5044b910555&c_uniq_tag=EvK9yj3bmmn-77kYSCi1J6tNOcbpIOL6Ii6KwYJMHCY&type=album
+	From: vk.com/album438615299_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лоооооол)))))))))))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Да, сейчас можно и посмеяться! Но тогда это была не смешная ситуация. Так как он кричал, мама я не хочу умирать.
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Погнали в скайп?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+В планет сайд поиграем
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+У меня это было в блокноте
+Attachments:[
+vk.com/photo208356599_456250162 : https://sun9-19.userapi.com/impf/c834403/v834403035/5907f/tSSA2ki621Y.jpg?size=1054x594&quality=96&sign=35d8933f586629621ef0373628e822f4&c_uniq_tag=_SVjrErxG2c3lSqFSHLDtjCS-SFDxf9qokcj4QJJzzo&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Купец
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лул)
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Да, сейчас можно и посмеяться! Но тогда это была не смешная ситуация. Так как он кричал, мама я не хочу умирать.
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Хз хз
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Погнали в скайп?
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	В планет сайд поиграем
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Блин, ору)))
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	У меня это было в блокноте
+	Attachments:[
+	vk.com/photo208356599_456250162 : https://sun9-19.userapi.com/impf/c834403/v834403035/5907f/tSSA2ki621Y.jpg?size=1054x594&quality=96&sign=35d8933f586629621ef0373628e822f4&c_uniq_tag=_SVjrErxG2c3lSqFSHLDtjCS-SFDxf9qokcj4QJJzzo&type=album
+		From: vk.com/album208356599_-3
+	]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Прост не люблю базарить когда мамка дома
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А самое интересное тут то, что мамка дома
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+лол)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+ну ок
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+(
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Сори амигос(
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+)
+(
+)
+(
+)
+(
+)
+(
+)
+(
+) 
+( 
+) 
+( 
+) 
+( 
+) 
+( 
+) 
+(
+) 
+( 
+) 
+( 
+) 
+( 
+) 
+( 
+) 
+(
+) 
+( 
+) 
+( 
+) 
+( 
+) 
+( 
+) 
+(
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Это не я отправил!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ты умрёшь...
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+И это не я !!!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Оглянись..
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Фреди рядном
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Нееееет
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я умираю
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Похоже на бананы которые друг на друга поставили 
+И на это ушло 7 лет!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Согласен
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Похоже на бананы которые друг на друга поставили 
+	И на это ушло 7 лет!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+ЧТО??? ЧТО?? СТОП ЧТО?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Что стоп
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+потс отч
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Стоп что???
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+На меня напали они
+Attachments:[
+vk.com/photo438615299_456239720 : https://sun9-47.userapi.com/impf/c834102/v834102965/58866/A2YtPgnCVDg.jpg?size=2560x1861&quality=96&sign=926c34a57842e9b2744c9dddc4eeb0b1&c_uniq_tag=oiwo4nAcrk2TLVNWDPJSlc_yJHDQ602ii7y2dWp2VIM&type=album
+	From: vk.com/album438615299_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Что что
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Мы заберем твою душу
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Иди к нам
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Это не я пишу !
+!!!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+Sticker #5799: https://vk.com/sticker/1-5799-64
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лол))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Всм рил?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Да нет))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Тип я претворяюсь школьником, который хоррор сериал снимает
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Вот ты меня затроллил блин( 
+Я как там этот у вас на слэнге... лузер?:(
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ламер хыыы маза фака
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Хех)
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Тип я претворяюсь школьником, который хоррор сериал снимает
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+ХЕх
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А ты играл в фнаф?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+А ты рил поверил?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Не-а
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	А ты играл в фнаф?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну я думал с твоего акка какая нибудь Мария Каткова пишет фигню!)
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	А ты рил поверил?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+хахахахахаха
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Не
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Точно не
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+Sticker #125: https://vk.com/sticker/1-125-64
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Блин, а когда ты Приступишь к созжанию карт?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Хотя бы в дове?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я тебя научу
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Хоть сегьодня
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да блин учеба вся херня
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Эх
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Вот сейчас сижу зубрю
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Завтра 3 репита
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+А что зубришь?
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Вот сейчас сижу зубрю
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Стих?)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Коран(
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	А что зубришь?
+
+
+		Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+		Вот сейчас сижу зубрю
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Кст, а как ты его рассказал?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лол! )))
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Коран(
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		А что зубришь?
+
+
+			Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+			Вот сейчас сижу зубрю
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я пошутил
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Вот сейчас сижу зубрю
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Завтра 3 репита
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Не три а 6 репов на самом деле ?!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да! Сегодня рассказал, эта манда рыжая мне 4 поставила
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Кст, а как ты его рассказал?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Слава богу, что не три!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+666 репитов в секунду!
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Не три а 6 репов на самом деле ?!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Купец ты монстр
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я бы тратил в секунду 23 976 000 на репитов (666 за секунду!)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лол))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ужас! Как такое чудище сфотографировали?
+Attachments:[
+vk.com/photo208356599_456250163 : https://sun9-84.userapi.com/impf/c831109/v831109926/11c9f/xNyaXt_5B40.jpg?size=360x640&quality=96&sign=1b924f99e55c8881495abff8776ec561&c_uniq_tag=YyMBGDSe_VNAFO5rsE9oeAKHOgdffDdrzelSbWhcKSo&type=album
+	From: vk.com/album208356599_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Мб, это была последняя вотка вотографа?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Скорее всего
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Капец где они нашли этого монстра
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Просто ужас!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну да!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лоооол))))))
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я это вроде в а взял
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Годный мем
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250165 : https://sun9-55.userapi.com/impf/c840125/v840125605/54260/uHRJ4_xFiS8.jpg?size=960x960&quality=96&sign=c5303544e67108507d482e4d2dfb5a05&c_uniq_tag=Xl6djzzM7NaJo_4CtkHpPWYroQwYwm_x-X-DjD0Vz0I&type=album
+	From: vk.com/album208356599_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ххе
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250166 : https://sun9-83.userapi.com/impf/c824503/v824503355/55230/vPfSqz5Ony4.jpg?size=980x1215&quality=96&sign=9aa059a3eb2a872b22cfb7a443a9fc19&c_uniq_tag=8MaRjz8qiuxbRykFzqKeHBZx0-rOmfxJhHBHeA0rqE8&type=album
+	From: vk.com/album208356599_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Блин, а когда ты Приступишь к созжанию карт?
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Хотя бы в дове?
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Я тебя научу
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Плз
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну блин это так долго конечно
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну давай когда мама уйдет
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Тогда го в скайп
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+И ты опишешь свою проблему
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+)))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ок))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Спасибо, что поможешь мне!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250167 : https://sun9-49.userapi.com/impf/c824410/v824410379/55c10/nTIL5wt9jww.jpg?size=604x403&quality=96&sign=da6f8f508bddc74415dea2ced0e51946&c_uniq_tag=AtkgAHVWYLcBkAxVFp1tWJJfvtXevPc8mnAaRO3BCok&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ты подумал что я на серьезе кинул это?
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+	Attachments:[
+	vk.com/photo208356599_456250166 : https://sun9-83.userapi.com/impf/c824503/v824503355/55230/vPfSqz5Ony4.jpg?size=980x1215&quality=96&sign=9aa059a3eb2a872b22cfb7a443a9fc19&c_uniq_tag=8MaRjz8qiuxbRykFzqKeHBZx0-rOmfxJhHBHeA0rqE8&type=album
+		From: vk.com/album208356599_-3
+	]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Просто интересно
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лол)
+Attachments:[
+vk.com/photo208356599_456250169 : https://sun9-71.userapi.com/impf/c824409/v824409568/5705c/0dZ4dL-yuBk.jpg?size=960x552&quality=96&sign=1535236ff8d2a8963251d295280f51c7&c_uniq_tag=X3QmdkuQWSfCe1VXrKTda8x4TEB0UyKwKyxF_WAq1hs&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250170 : https://sun9-61.userapi.com/impf/c840339/v840339405/33279/v9s4bwIW9yg.jpg?size=1280x960&quality=96&sign=1660dc37a388fb018c2fced0b2d576fe&c_uniq_tag=CaPxzrOPIEqYJOndjI_kgQOms_9NBzXGdYV60pv1pRI&type=album
+	From: vk.com/album208356599_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+нет))
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Ты подумал что я на серьезе кинул это?
+
+
+		Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+		Attachments:[
+		vk.com/photo208356599_456250166 : https://sun9-83.userapi.com/impf/c824503/v824503355/55230/vPfSqz5Ony4.jpg?size=980x1215&quality=96&sign=9aa059a3eb2a872b22cfb7a443a9fc19&c_uniq_tag=8MaRjz8qiuxbRykFzqKeHBZx0-rOmfxJhHBHeA0rqE8&type=album
+			From: vk.com/album208356599_-3
+		]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну ок))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я ваще ржу) Мы друг у друга спрашиваем всё время тип: ты понял что я стебусь?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+)))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+)))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ты щас стебался?)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Не
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Но рили
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Мы всё время так пишем
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну, часто
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+и мне смешно
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я стебался!))))
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Не
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Мне тоже
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+!!!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+)))
+Attachments:[
+vk.com/photo208356599_456250171 : https://sun9-44.userapi.com/impf/c841521/v841521342/49c7e/V41Wwr8orC0.jpg?size=604x430&quality=96&sign=5df437ce36b83ea894f62097e7d557d6&c_uniq_tag=MRT2Mtt5niLkasdJv6DFpOWvLTyDg8_a46zOa-0D-ps&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Захожу в ноут!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+О)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Норм))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Вот моя проблема кст))) Напиши мне тут, как её решить?
+Attachments:[
+vk.com/wall-19587543_16334
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Хм
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну вообще можешь мне комп отправить
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я его подключу к цирюльнику
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+И исправлю
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Думаешь получится?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
++ так как ты друг я закину тебе пару полезных прог!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Не сомневайся в цирюльнике!
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Думаешь получится?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+СПАСИБЮО1!!!
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	+ так как ты друг я закину тебе пару полезных прог!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну ок, так как ты про тебе виднее)
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Не сомневайся в цирюльнике!
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		Думаешь получится?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Скачай дискорд
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Он круче в 3 раза!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Даже в 3,14159 раза!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Если быть точным
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Что это?!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Блин у меня почему то инет на ноуте не работает
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Во сколько раз дискорд лучше скайпа
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+блин
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ща разберусь!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ок
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/video438615299_456239044 : 
+	🚩 Он вам не Дискорд
+	Чем Discord лучше Skype скайп и дискорд в чем отличие что лучше как пользоваться Discord инструкция дискорд
+	YouTube
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лол, всегда бы так
+Attachments:[
+vk.com/photo208356599_456250173 : https://sun9-57.userapi.com/impf/c840534/v840534595/35778/WJEq2Z5M5ZQ.jpg?size=1536x2048&quality=96&sign=0d7d13f9fdd0f8c2a067647bf3b165fd&c_uniq_tag=kvGMbccbxvuQadKY1kLv_k8ZSsNljCkc73XumIbzg98&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+OXYEHO
+Attachments:[
+vk.com/photo208356599_456250174 : https://sun9-26.userapi.com/impf/c837739/v837739595/65f3c/mxn8UGuieHU.jpg?size=1536x2048&quality=96&sign=0800c9d79b141eb40f120855aaf6e446&c_uniq_tag=u7M_pVVt0HW-b41YHGQydE28_h_ma4C0oUEJ33F9sQ4&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+И причем сети не ищет
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну вай фай
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ни один
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Типо вай фай сети не найдены
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Что делать?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Скинь фото4ку ноута при хорошем освещении
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Что именно?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну клаву
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Стобы прям с избытком было
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Вот так?!
+Attachments:[
+vk.com/photo208356599_456250176 : https://sun9-38.userapi.com/impf/c830509/v830509595/1379d/SStbRcMkQcc.jpg?size=1536x2048&quality=96&sign=61fc5d284ec081b67ad5753d785789d4&c_uniq_tag=g2v2IqOMz25F-Xhe4Wgi8FFBYXVSSdECOA-oKqRGf9k&type=album
+	From: vk.com/album208356599_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ибо там иногда есть кнопки, которые за вай фай отвичают
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ха, а с боку
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А больше нет
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Всё?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Исправил?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Или что?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Нет(
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Блин
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Скажи, что за ошиька?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да хуй знает блять
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Прости что злюсь
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Но почему всегда все через жопу с этими виндусами
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+)))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну в общем
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Сети фай фая вообще не ловит
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Скажи модель ноута
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Точную
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я включал режим в самолете и выключал
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Не помогло
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ща! Это я могу!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+А у тебя есть LAN КАБЕЛЬ?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250177 : https://sun9-55.userapi.com/impf/c841023/v841023595/4a0c4/8aHAL_G-ZkY.jpg?size=1312x1313&quality=96&sign=936ea6b50ec56694d87b191921aa7897&c_uniq_tag=btc0LkR6dEFjiX1DmkFLV4EPrwK5vUHPjyZEWjJuRGM&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Нету
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+У тебя на ноуте можно озу добавить кст
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Прикольно)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Целых 32 гб
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Все не парся
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ща я все сделаю
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я подключаю цирюльники
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+К*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Не хотел этого делать конечно
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Но вынудил это ноут!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну ок
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ждем!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ты уверен? Не боишься, что земля расколется?
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Я подключаю цирюльники
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Уверен как никогда
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Фух, с Богом!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я смеюсь)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Фух, с Богом!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Блин
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Знаешь, я это прочитал как такой старик
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Смешно теперь
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Цирюльник в разгаре работы
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Я подключаю цирюльники
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	К*
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Не хотел этого делать конечно
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Но вынудил это ноут!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Пару минут и все будет как надо!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+О лол
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А я не знал что это моцарт
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Уже есть фотографии в новостях, того как работают цирюльники! Никита, держись там!!!
+Attachments:[
+vk.com/photo438615299_456239722 : https://sun9-48.userapi.com/impf/c841224/v841224152/4d6f6/aPmtTJZG9To.jpg?size=1280x814&quality=96&sign=15ac55504eac844110eced0f57fde6d6&c_uniq_tag=slGAX6gNBhp85TjGsZfGgG28DfPPvMF7cXjrZcj3MMo&type=album
+	From: vk.com/album438615299_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Да)
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	А я не знал что это моцарт
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/audio?id=208356599&audio_id=undefined :  - THE DAY IS MY ENEMY
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Эта больше подходит)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+О, моя сестра супер давно эту группу слушала
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Стой, а на самом деле, что ты делаешь?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+В 90-х
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Перезапускаю)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+А, лол)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну брат так делал
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ему помогло
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лооол)
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Уже есть фотографии в новостях, того как работают цирюльники! Никита, держись там!!!
+	Attachments:[
+	vk.com/photo438615299_456239722 : https://sun9-48.userapi.com/impf/c841224/v841224152/4d6f6/aPmtTJZG9To.jpg?size=1280x814&quality=96&sign=15ac55504eac844110eced0f57fde6d6&c_uniq_tag=slGAX6gNBhp85TjGsZfGgG28DfPPvMF7cXjrZcj3MMo&type=album
+		From: vk.com/album438615299_-3
+	]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+О
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Волна скоро дойдёт и до Москвы.... Всё человечество будет уничтожено!
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Лооол)
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		Уже есть фотографии в новостях, того как работают цирюльники! Никита, держись там!!!
+		Attachments:[
+		vk.com/photo438615299_456239722 : https://sun9-48.userapi.com/impf/c841224/v841224152/4d6f6/aPmtTJZG9To.jpg?size=1280x814&quality=96&sign=15ac55504eac844110eced0f57fde6d6&c_uniq_tag=slGAX6gNBhp85TjGsZfGgG28DfPPvMF7cXjrZcj3MMo&type=album
+			From: vk.com/album438615299_-3
+		]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Слава алЛОХу
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Совсем немного осьалось
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Никита, не-е-е-е-е-ет!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Вот и всё..
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я уже вижу её
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Прощай...
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+кого?)))))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Волну
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Взрывную
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+А всё из - за цирюльника
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+О нет, я сдох
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Неееееееет!!!!!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+*вырывает кабель*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+*бьет битой по цирюльнику в слоумо под драматичные мелодии*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Бля долго он грузится чет
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Никита, уже поздно...
+Attachments:[
+vk.com/photo438615299_456239723 : https://sun9-20.userapi.com/impf/c841224/v841224152/4d710/bu69wq6RLoI.jpg?size=1200x930&quality=96&sign=41e97e9a36c6812bad1eda717808d493&c_uniq_tag=APOoiS34j8LKi1muN6_q5jjL9xWJKOWQKas2jXA3pdk&type=album
+	From: vk.com/album438615299_-3
+]
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	*вырывает кабель*
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	*бьет битой по цирюльнику в слоумо под драматичные мелодии*
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Мб, он сломался?)
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Бля долго он грузится чет
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лол)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Шучу
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А все
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ща финалочка
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Норм, ёпты
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+95% как чечня любимая
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+97%
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+)))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+ТОНКО
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	95% как чечня любимая
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Не все поймут, не многие вспомнят
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	95% как чечня любимая
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Школоте не понять
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	95% как чечня любимая
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+ХАХАХАХ ваще. Ну да, смешно?:
+Attachments:[
+vk.com/photo438615299_456239724 : https://sun9-78.userapi.com/impf/c840139/v840139152/53cca/O4FDgUIH-S4.jpg?size=550x457&quality=96&sign=7fbdc7e5b9ff826be8504fa4ac7f0137&c_uniq_tag=G0ZTjyJFXp2auE-jr3FS0tMAKfqwgExOd8zdErAisyU&type=album
+	From: vk.com/album438615299_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+хах
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ты где?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+все???
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Сори что не отвечал
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+С баттлом заебали
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да, все
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Го в скуп
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Го дискорд
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Приучай себя к годноте
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Окей
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ща скачаю
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+У
+Attachments:[
+vk.com/photo438615299_456239725 : https://sun9-66.userapi.com/impf/c639229/v639229152/66709/poM-nhG4fbs.jpg?size=1839x1079&quality=96&sign=b3b3be719b992482eae936642d06cbfb&c_uniq_tag=kTi-MeTZQybAuuttk-ieX2qv1Zxj8vY7Q_Es2rlqkKE&type=album
+	From: vk.com/album438615299_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ура!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Вот, это самая удобная прогв для связи! ТАм нужно всего лишь, каждое действие прописывать в консоли! как раньше) В 90 - х :) ❤
+Attachments:[
+vk.com/photo438615299_456239726 : https://sun9-17.userapi.com/impf/c639229/v639229152/6671d/_SCW_RAnzic.jpg?size=1830x1006&quality=96&sign=72492035feeafefc3a088d1963064285&c_uniq_tag=GVmyRtX6bJJYnbQCnZsBbaKCQXKH6_6LFv2qynU5RnM&type=album
+	From: vk.com/album438615299_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/photo438615299_456239727 : https://sun9-88.userapi.com/impf/c639229/v639229152/66725/Z2rbxGDYFjQ.jpg?size=670x503&quality=96&sign=566041509b2a52781b4a467788d9c64f&c_uniq_tag=qOmofUGUUNmufiKDBIJx473BbIu1z2rGgrCVYY9JAvU&type=album
+	From: vk.com/album438615299_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну, что, скачал дис?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну блядь я загрузил, открыл а он не открывается
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+на ларина
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ща
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну злой дискорд!
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Ну блядь я загрузил, открыл а он не открывается
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Бля я его сломал
+Attachments:[
+vk.com/photo208356599_456250178 : https://sun9-58.userapi.com/impf/c840621/v840621595/33076/Q8GopEbQiH0.jpg?size=1536x2048&quality=96&sign=2d64bc984db3799e66f7d46230d4013d&c_uniq_tag=wbrxeCozXk0x7z-b02tHR-dEMrbYle6LbBdoOmGfb3I&type=album
+	From: vk.com/album208356599_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лоо))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+лол)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да сука не открывается
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ты через блокнот открыл его что - ли?
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Бля я его сломал
+	Attachments:[
+	vk.com/photo208356599_456250178 : https://sun9-58.userapi.com/impf/c840621/v840621595/33076/Q8GopEbQiH0.jpg?size=1536x2048&quality=96&sign=2d64bc984db3799e66f7d46230d4013d&c_uniq_tag=wbrxeCozXk0x7z-b02tHR-dEMrbYle6LbBdoOmGfb3I&type=album
+		From: vk.com/album208356599_-3
+	]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Что ты сделал?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Хрен знает
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Открыл
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Блин, надо тебе прогу для скринов скачать
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Нажми, открыть с помощью
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Открыл
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я его заново качаю
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ок)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+А поч?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я его скачал 3 раза
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да он сукк проподает
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+зачме:
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Стой)))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Он в "загрузках"
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лежит)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250179 : https://sun9-57.userapi.com/impf/c840527/v840527595/325f2/rbykEADTrnY.jpg?size=2048x1536&quality=96&sign=fc32c1b6c43b09280878314101f000fb&c_uniq_tag=xNmqavNhvyHfbRDrE-1W4M-8s8gOQHwe1EL-2Ekpexg&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А где загрузки
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Он в "загрузках"
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Лежит)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Сек
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+КАК ВСЕ СДОЖНО БЫЛЫЛЫЛЛЫЛЫЛЫЛВЛ
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+В диске c
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+ну
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+там где винда стоит
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+папка загрузки
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+или через браузер. Справа где - то обычно
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Вот так во т
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+НУ что?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Получилось?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+На конец то блин
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Не через загрузки
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Хер знает
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Запустил?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я потыкал на странную хуйню внизу
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Его ж через браузер как вк можно запустить ксит
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+И у меня на столе появился мигом дискорд
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Запускай)
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	И у меня на столе появился мигом дискорд
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+😎
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250180 : https://sun9-8.userapi.com/impf/c841620/v841620595/4becf/WKhMCDRDHTw.jpg?size=1536x2048&quality=96&sign=8854edf2bbb804783d68a137e5f52f10&c_uniq_tag=xEvhkLsL-W4Fgcc_e_U60Av_FoimytJW7Eko8d6VHvo&type=album
+	From: vk.com/album208356599_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+УРА
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Всё
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Запускается
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Хоть и мыльная, но годная карта
+Attachments:[
+vk.com/photo438615299_456239728 : https://sun9-57.userapi.com/impf/c834103/v834103152/58383/lChlGSCbvKE.jpg?size=1550x988&quality=96&sign=d12f6b7def7021b91835a4ca38ed652d&c_uniq_tag=bEJ8emefNvUgTPNEsHs4fZI4C8U6JuVEZz8s-x5RvQU&type=album
+	From: vk.com/album438615299_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Мне понравилось
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А че за херня
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я пишу маил свой
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Круто у тебя получается!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну - ка
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Мне пишет что кго не существует
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Скопируе
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+его
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+И вставь
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да он правильный
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я его знаю!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Скопируй, скопируй)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Откуда?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Из имейла
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+С ?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Что?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Бля тупая клава айфона
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Зайди на пошту
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+И отдуда скопирую
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да я понял
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Скопируй*
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/photo438615299_456239729 : https://sun9-68.userapi.com/impf/c834103/v834103152/5838a/I3UeiPxY-j8.jpg?size=34x22&quality=96&sign=4043bbbc6f7089fffb1403b2e0026fdc&c_uniq_tag=CK0YG1SC4Ri7Ys-Ea1zEV95bGqg7iXdE-y-U4FzIIKc&type=album
+	From: vk.com/album438615299_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/photo438615299_456239730 : https://sun9-32.userapi.com/impf/c834103/v834103152/58391/Ar66PcBvJ6s.jpg?size=34x22&quality=96&sign=509b4339a59371572ed918c8b738666d&c_uniq_tag=Q4Og_PRhexZUQC6BVkRPyBv7kUjS7pf9cHJvF594-UA&type=album
+	From: vk.com/album438615299_-3
+vk.com/photo438615299_456239731 : https://sun9-72.userapi.com/impf/c834103/v834103152/58398/5C8nL_CJ2Y4.jpg?size=34x22&quality=96&sign=015c8f6c0bdd3faa655c105313bb43a5&c_uniq_tag=_KAx17mDsUhGnjkFCv-_pshfPQNhcBnopzruaRgyb7o&type=album
+	From: vk.com/album438615299_-3
+vk.com/photo438615299_456239732 : https://sun9-85.userapi.com/impf/c834103/v834103152/5839f/hNIwKfVsT8M.jpg?size=34x22&quality=96&sign=01207a9af6deab984c037604cbbcca33&c_uniq_tag=hM4kWRZsUq-95gm6RA3f3TcbxBclIszCeW5xbfdsI7o&type=album
+	From: vk.com/album438615299_-3
+vk.com/photo438615299_456239733 : https://sun9-21.userapi.com/impf/c834103/v834103152/583a6/niQBLcnRAes.jpg?size=34x22&quality=96&sign=789ee4f97a32bbecf7888f548d9e9408&c_uniq_tag=XBn-WYbU80LpZNMOf3nFnrshhKUJ6UruU3GB_z-I7hc&type=album
+	From: vk.com/album438615299_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/photo438615299_456239734 : https://sun9-37.userapi.com/impf/c834103/v834103152/583ad/c8H7MtUY2cQ.jpg?size=34x22&quality=96&sign=63528f10d071804da91165acc21c751c&c_uniq_tag=K8rQPMpBXBfQI-K2X9KNiv7x4YSw7aLA_iJldxZWpdM&type=album
+	From: vk.com/album438615299_-3
+vk.com/photo438615299_456239735 : https://sun9-51.userapi.com/impf/c834103/v834103152/583b4/JJ_YgghiPGc.jpg?size=34x22&quality=96&sign=8d4292afea5bc457a1f317a865fefde8&c_uniq_tag=0n4v31tun96g_aPDi2DcojP85Wgh12CF3VJHAAmM0hU&type=album
+	From: vk.com/album438615299_-3
+vk.com/photo438615299_456239736 : https://sun9-82.userapi.com/impf/c834103/v834103152/583bb/uxqLOUTcW2U.jpg?size=34x22&quality=96&sign=94fcfe79a4e3f5c382b96a68dd9d4fe6&c_uniq_tag=m0sUic8umxRDlAp9J-eb75Ohm6ZrhS4AHnSjrgEwGNU&type=album
+	From: vk.com/album438615299_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лол
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/photo438615299_456239737 : https://sun9-79.userapi.com/impf/c834103/v834103152/583c2/39peQdOU9N8.jpg?size=34x22&quality=96&sign=c7ba730628a3e58d34ea54c163ac9f5f&c_uniq_tag=4VwtKxmSKrj5UpjRWeIkLuNYr49lkhtNTNUotHD2wmI&type=album
+	From: vk.com/album438615299_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+С ?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/photo438615299_456239738 : https://sun9-46.userapi.com/impf/c834103/v834103152/583c9/C2JBnzhi5is.jpg?size=34x22&quality=96&sign=f83ecc225735cf8cd6a90173b0639c66&c_uniq_tag=jSUouBw7-3Nu9LxgTFL-DcJJ80WU7KI5QnFoiNim3-A&type=album
+	From: vk.com/album438615299_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+С ?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лол!)
+Attachments:[
+vk.com/photo208356599_456250181 : https://sun9-37.userapi.com/impf/c834203/v834203595/558f1/ss5DTsQXLl0.jpg?size=1536x2048&quality=96&sign=116abbe9f0b4bb024dd85b8ad8ff54b3&c_uniq_tag=ABOEycv9YMgfqB1gQ4t99jt8ZbeXhh4t9OOlysXrrhc&type=album
+	From: vk.com/album208356599_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Хахах
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Лол!)
+	Attachments:[
+	vk.com/photo208356599_456250181 : https://sun9-37.userapi.com/impf/c834203/v834203595/558f1/ss5DTsQXLl0.jpg?size=1536x2048&quality=96&sign=116abbe9f0b4bb024dd85b8ad8ff54b3&c_uniq_tag=ABOEycv9YMgfqB1gQ4t99jt8ZbeXhh4t9OOlysXrrhc&type=album
+		From: vk.com/album208356599_-3
+	]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+БЛЯДЬ
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я СКОПИРОВАЛ
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Что приключилось?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А ОН НЕ ВСТАВЛЯЕТСЯ
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+!!1!1!1!1!!1!1!1!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Тогда спиши по буквам
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Попробуй Ctrl + v
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+Sticker #5433: https://vk.com/sticker/1-5433-64
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Тогда спиши по буквам
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Прим списывай
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		Тогда спиши по буквам
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да нету
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ты думаешь я не помню наизусть свой родной майл?!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лол)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Кароче
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я входил
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А там внизу написано зарегатся
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Пиздец)))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лол)))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+хахахах
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Сук)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лоооооооооооооооооооооооооооооооол
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Все я вошел
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ура
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Какой твой ник
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+ник BerkYt115 
+id #0736
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну как?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да сука
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Написал твой ник
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Нажимаю энтер чтоб нацти
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Он тупо ниче не делает
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Потом ввожу твой номер с хэштэгом
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Пишет не сработало
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Напиши ты
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Мне
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Свой
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+ник
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+и id
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+SomaliTravel
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ага! Айди! Чтоб ты меня вычислил
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+#4663
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+)
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Ага! Айди! Чтоб ты меня вычислил
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Блин проболтался
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/photo438615299_456239739 : https://sun9-73.userapi.com/impf/c834103/v834103152/583e5/rTeWCeFusnQ.jpg?size=1199x146&quality=96&sign=e513340f16f9296c41fa75b939e7e98b&c_uniq_tag=ZLnqJv7saZUyay64ZvNG7k6L4J-velJdJqqdbSxGnZI&type=album
+	From: vk.com/album438615299_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Хм
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я же говорю
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Дай скрин id
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+своего
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Привяжи скайп к дискорду
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я вот так сделал
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Не)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Очень лень
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Поч? Я лох?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лан
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я не понимаю, почему мы так не можем найти лруг друга
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Думал плохо скайп привязывать
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+супер странно
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да вот я тоже
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Тут че бля аву нельзя поменять?!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Можно)))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/audio?id=208356599&audio_id=undefined :  - Никита
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+
+	Attachments:[
+	vk.com/video438615299_456239044 : 
+		🚩 Он вам не Дискорд
+		Чем Discord лучше Skype скайп и дискорд в чем отличие что лучше как пользоваться Discord инструкция дискорд
+		YouTube
+	]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лент смотреть
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лент*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Сука!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Скинь адрес майла
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лент*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Сука!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Нет, правильно Лент*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А где его глянуть
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лол)
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	А где его глянуть
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Зайди на свою почту
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Зашел
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Там он есть
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну блин, давай без приколов, хочется быстрее
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну так?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я рил не знаю где он(
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лол)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ты же его вводил
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Всмысле?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Адрес эл. почты
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну бля сразу так бы
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Скинь адрес майла
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Адрес маила
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну?)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну хз
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я так и написал эжжи)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Никогда не слышал чтоб так называли
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ой
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ахахах
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Аааа
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Блин
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+лол
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Боже я смеюсь
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Niktown13@mail.ru
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну скинь уже плз
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+О
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ура
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+))))))))
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Скинь адрес майла
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Я рил не знаю где он(
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Адрес эл. почты
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Ну бля сразу так бы
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Niktown13@mail.ru
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+))
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	))))))))
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		Скинь адрес майла
+
+
+		Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+		Я рил не знаю где он(
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		Адрес эл. почты
+
+
+		Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+		Ну бля сразу так бы
+
+
+		Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+		Niktown13@mail.ru
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Рили смешно)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Капец я этот
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Как там у вас программистов
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ламер
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Завтра баттл ептвою я так волнуюсь ща сердце сдохнет!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Как у тебя дискорд выглядит? Дай фоточку
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я с тобой)
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Завтра баттл ептвою я так волнуюсь ща сердце сдохнет!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+На стриме буду смотреть!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250182 : https://sun9-34.userapi.com/impf/c834200/v834200740/4dfc2/okMnEjUcb-8.jpg?size=2048x1536&quality=96&sign=b91c4ce9ca1526ae7c7425f10e5909ca&c_uniq_tag=LCd7U_8BOuTlkfkPXMF_O3HFiozOrxyaenBRLatSi-w&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Кстати может с перископа будут снимать) ник дам
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	На стриме буду смотреть!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+норм! : )
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+А дай фоточку айди
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+	Attachments:[
+	vk.com/photo208356599_456250182 : https://sun9-34.userapi.com/impf/c834200/v834200740/4dfc2/okMnEjUcb-8.jpg?size=2048x1536&quality=96&sign=b91c4ce9ca1526ae7c7425f10e5909ca&c_uniq_tag=LCd7U_8BOuTlkfkPXMF_O3HFiozOrxyaenBRLatSi-w&type=album
+		From: vk.com/album208356599_-3
+	]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ты шо думаешь я не так сказал
+Attachments:[
+vk.com/photo208356599_456250183 : https://sun9-61.userapi.com/impf/c840029/v840029740/591ce/lM4QFmoa7b8.jpg?size=1387x1385&quality=96&sign=03ea00c850151cab4a68905d3d38d961&c_uniq_tag=EbcSBeXeh_aR4ewZ4J4N5nmsubv9CiROQ9CH9XTvDjs&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Это же айди да?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+да
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Блин
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ох
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я аж проголодался
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я поня л
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Сек
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Для себя
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	SomaliTravel
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	#4663
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Принимай
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+В др
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ауу
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Чел
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+НИкита, ты глде7
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Сори опять по баттлу
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я принял
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/video15982758_171232505 : 
+	инструкция, как сделать скриншот
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/video438615299_456239045 : 
+	Warhammer 40000 Mission Editor - Как создать карту?
+	Скачать Mod Tools:
+1) http://forums.relicnews.com/showthread.php?226355
+2) http://xgm.guru/p/wh/3602
+Mission Editor - это редактор карт для игры Warhammer 40000: Dark Crusade.  Здесь множество всяких опций, которые регулируют различнейшие настройки вашей карты. Этот редактор очень похож на World Editor (редактор карт Warcraft 3) но существенно от него отличается...
+-------------------------------------------------
+Если я вам хоть немного помог поддержите канал лайком и подпиской, не сложно же...
+-----------
+	YouTube
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну как?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я тут
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Норм! Завтра начну
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Ну как?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+О, ты видос уже посмотрел?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Немного
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Потом полностью посмотрю
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ок)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/video-122683800_456239221 : 
+	шарий уничтожил навального.....
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Блин, как можно настолько сильно любить ваху, чтобы читать по ней 500 страничные книги?
+
+
+	Виталий Марков [id366450641] 
+	Ну а у Императора могла быть изображена любая блажь. Т.е. вообще любая, как вид отсылок к чему угодно и каким угодно мотивам.
+
+
+	Виталий Марков [id366450641] 
+	Ну а вот тут, мой маленький принц, как раз самое интересное. Достаточно подкованный товарищ в беке, который перелопатил кучу кодексов и прочел пару омнибусов по вселенной припомнит вам следующий аргумент. В частности о том, что примархи во время пребывания на Терре изготавливали друг для друга оружие. Так Фулгрим кому то там подарил молот "хенд мейк",а взамен получил меч. Вулкан что то там делал для Хоруса. Мне почему то пришло это на память, ничего такого о "глазастом мече" Сангвиния не припоминаю но уверен что что то такое было. Наверняка )
+
+
+	Виталий Марков [id366450641] 
+	А в чем разница ? Ересь разве не из вселенной 40К ? Только события описаны чуть чуть, "капельку" раньше.
+
+
+	Антон Морозов [ksnorm] 
+	Ну как тебе сказать... Должно быть, не так выразился
+
+
+	Антон Морозов [ksnorm] 
+	Бэк есть про ересь и, например, про комиссара Каина
+
+
+	Антон Морозов [ksnorm] 
+	Про Армагедон там
+
+
+	Виталий Марков [id366450641] 
+	Хах, только что товарищь рассказал об арте ) Оказывается это илюстрация к книге "Где Ангел не решится сделать шаг".
+
+
+	Виталий Марков [id366450641] 
+	Про комиссара Каина ?
+
+
+	Демер Нкардаз [jackalwt] 
+	по бэку можно ожидать того,что механикусы начнут клепать волкитку ,как недавно грав оружки?
+
+
+	Виталий Марков [id366450641] 
+	Все Антон,уяснил суть твоего вопроса. Мои познания ограничены офоциальными источниками. Хотя если учесть что бек пишут одновременно 8 источников ...
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Это же жесть эжжи
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+А вот что такое мьод??
+
+
+	Антон Морозов [ksnorm] 
+	Эмм... Ну лан. В кратце. Логику за порог, побольше мьеда и Пафоса
+
+
+		Виталий Марков [id366450641] 
+		Я уже ответил что понял суть вопроса ))) Блин, хоть кто нибудь из учасников разбирается в том адище, именуемом бек, что б мы могли получать ясные ответы на обсуждаемые нелепости ?
+
+
+	Антон Морозов [ksnorm] 
+	Вот суть бэка
+
+
+	Виталий Марков [id366450641] 
+	мьОда ))))
+
+
+	Антон Морозов [ksnorm] 
+	Правда?
+
+
+		Виталий Марков [id366450641] 
+		мьОда ))))
+
+
+	Демер Нкардаз [jackalwt] 
+	мастер мьОда
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Это же жесть эжжи
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/photo438615299_456239750 : https://sun9-21.userapi.com/impf/c834300/v834300961/59174/80QT1GNki_c.jpg?size=1521x847&quality=96&sign=1d02b38f86926a1ce8d4d137417e589c&c_uniq_tag=fRfyM4M4e9ncmpJhUIEukuUPhlDH67zsv07UJG7qsjI&type=album
+	From: vk.com/album438615299_-3
+vk.com/photo438615299_456239751 : https://sun9-77.userapi.com/impf/c834300/v834300961/5917d/g9FR9-HDzQY.jpg?size=1280x720&quality=96&sign=8c5cc366a2cac10d8caa6f237a63c140&c_uniq_tag=JLvxpvPHYNC2GKga8DDDnfNoajGkXFG1TBDUxt4nOvc&type=album
+	From: vk.com/album438615299_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+как вам, сир?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Не наши модельки
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Сразу говорю
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Но они будут у нас)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Слушай
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ты хотел пройти лов
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лов*
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Дов*
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Крч всё таки
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Нужно пройти дарк крусейд
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+А не винтер ассауд
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Чтобы понять как правильно строить крты
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+хахаха
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+лол
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лан, шутки в сторону
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Крч
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Нужно пройти дарк крусейд
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+вот
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Кст
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+А ты видост уже позырелд?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Не
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я только с баттла
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Выиграл!!!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+В полуфинал прошел
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ок
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Крч
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		Нужно пройти дарк крусейд
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я в понед начну тогда
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Сейчас уроков на пн дохера задали
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+А перископ?
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Выиграл!!!
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	В полуфинал прошел
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Когда ты успел?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ааа
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+я спла тогда наверн
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да там не снимали толком
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Жаль
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+эх
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+ЖАЛЬ
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Полуфинал будут снимать!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ок)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+ЖАЛЬ
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Там оператор обосрался
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лан, хватит)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Всм?
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Там оператор обосрался
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лан, я пойду. Мне тоже уроки ещё делать на пн!))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну у него диарея и он дома сидеть остался
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Всм?
+
+
+		Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+		Там оператор обосрался
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+Sticker #107: https://vk.com/sticker/1-107-64
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250191 : https://sun9-73.userapi.com/impf/c841323/v841323983/4e70d/M-PkLBimz4w.jpg?size=480x480&quality=96&sign=dc8aa5132c27406667142c4fafe09c92&c_uniq_tag=li6qXaCIVUAO4SxFM0vdq2mP7QCyPTizM9pZ6EVK6Sw&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/audio?id=371745461&audio_id=undefined :  - В замогильной стороне
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Что лучше использовать в качестве полигона?
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Особо ничего ещё нет. Я себя заставляю делать эту карту. Потому что желания вообще нет
+	Attachments:[
+	vk.com/photo438615299_456239754 : https://sun9-58.userapi.com/impf/c834401/v834401057/57aab/vAR-fpQkHf8.jpg?size=1828x1050&quality=96&sign=5f2d4e4487590e6e84c134aa12da7f27&c_uniq_tag=-qzLiPDyd-gCnLI8Nu5grfQC6L-grquoE3Z2xp-vt3c&type=album
+		From: vk.com/album438615299_-3
+	]
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Вот старый вариант
+	Attachments:[
+	vk.com/photo438615299_456239755 : https://sun9-88.userapi.com/impf/c834401/v834401057/57abc/IjsqWcFEg34.jpg?size=1832x1057&quality=96&sign=4118fd2aa6920075a317c7ba7e0ec756&c_uniq_tag=2_6uDRLqYZxAkNr2SzKcHUyI14M3Tp3SMKb_6Dyofwg&type=album
+		From: vk.com/album438615299_-3
+	]
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Вот конечный вариант
+	Attachments:[
+	vk.com/photo438615299_456239761 : https://sun9-86.userapi.com/impf/c840733/v840733057/32d46/DNRIkY1VBg8.jpg?size=1836x1079&quality=96&sign=5ed938aa0a3a4f76489427330936edad&c_uniq_tag=hDWCBunZr9wXbYQfE01blwjb00J_fVq6qabV072_AJw&type=album
+		From: vk.com/album438615299_-3
+	]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Просто скажи, как тебе?))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Наверно 2
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+На 3 карте я ничего не понимаю
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Вообще первая похожа больше на полигон 
+Вторя скорее на базу для самолетов 
+А третья на секретный лагерь в горах
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Если я правильно понял что ты имеешь виду под «полигоном»
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ты прав
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+№ - я вообще не к этому)) Я просто попросил оценить)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+3*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну там мало чего есть
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Или может я не вижу из далека
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я ж не разбираюсь пока что!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+)))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ладно, я в школу
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Но это только пока! ))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+О, точно!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Удачи Вам! Сер!!!!!!!!!!!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Спасибо! А вам доброй ночи!!!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Согласен
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Алексей Живописцев [azhivopistsev] 
+
+	Attachments:[
+	vk.com/photo272314831_456239023 : https://sun9-81.userapi.com/impf/c824603/v824603267/57bcf/_tGz6BfpD-g.jpg?size=604x453&quality=96&sign=ad6b0770c45c32db4faacdf85e2e6344&c_uniq_tag=PZtDmK8zJFMktnwTzBKeG1QKv3C8Oo77kE0fcAN8ycY&type=album
+		From: vk.com/album272314831_-3
+	vk.com/photo272314831_456239024 : https://sun9-34.userapi.com/impf/c824603/v824603267/57bd6/t-6JSdvczLk.jpg?size=604x453&quality=96&sign=6404a461432af447157073a7654217f7&c_uniq_tag=ggrCqHvFfEnWevwMUac2e7ZGklXMmhl-2ZQC2XYJT7o&type=album
+		From: vk.com/album272314831_-3
+	vk.com/photo272314831_456239025 : https://sun9-42.userapi.com/impf/c824603/v824603267/57bdd/6JR_VLg85TY.jpg?size=604x453&quality=96&sign=f618fb25361dcf074b62a1fbccc9b9ae&c_uniq_tag=k7qJzOZStPpDj5mp3ZjiDhgQqoi7atnQzwkcRcmoP8g&type=album
+		From: vk.com/album272314831_-3
+	]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Мне тут 11
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лоооол)))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+0)))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250203 : https://sun9-49.userapi.com/impf/c834402/v834402703/5948f/dVEuYst5Jjc.jpg?size=587x588&quality=96&sign=4e47be056658b95e56bd14aa703a81f5&c_uniq_tag=T6_kpu_Rj3RZWJ3gNlCDcmkFR2ulwu4SYmlkecKyzk8&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Мне тут вроде тож 11
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Толстый русский Иван
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Русишь!:)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Хнхнхн)))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Меня сегодня из редачей удалили)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Больше там не кидаю мемы
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Админ паблос продал
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Всм?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+биздос
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Тогда отпишусь
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лол)))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/video-104064558_456240878 : 
+	game.webm
+	🔥БОЛЬШЕ ГОДНОТЫ ЗДЕСЬ🔥
+
+👉 vk.com/gameswebm 👈
+👉 vk.com/gameswebm 👈
+👉 vk.com/gameswebm 👈
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я хочу в это поиграть!!!!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Это сталкер)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+С модами?!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Да
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну тогда не интересно
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Пк = возсожности
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+возможности*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/video-104064558_456240791 : 
+	game.webm
+	🔥БОЛЬШЕ ГОДНОТЫ ЗДЕСЬ🔥
+
+👉 vk.com/gameswebm 👈
+👉 vk.com/gameswebm 👈
+👉 vk.com/gameswebm 👈
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250204 : https://sun9-79.userapi.com/impf/c638921/v638921899/4d261/inaTHRGMmwM.jpg?size=2000x1400&quality=96&sign=8dd6af8bf214900c40b5793f7c781b9c&c_uniq_tag=PZVYoNQXVGBP56dbfreDbZROOJtURk6YKJ1tjcivQ2U&type=album
+	From: vk.com/album208356599_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+Sticker #126: https://vk.com/sticker/1-126-64
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Бля пробник через 9 часов!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Пробник это же тупо огэ решаем да!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+?*
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Да
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+У тебя каникулы?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Нет
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Значит оценочка будет
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Они с 30
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Понял принял
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Слушай
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+У тебя нет ощущения
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Что время идет быстрее
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Точнее начало идти быстрее
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+У меня летом это чувство началось
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Есть. Вроде. Хотя я сейчас в какой - то прострации нахожусь.
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Раньше четверть шла как полгода если по нынешним ощущениям сравнивать
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+И вообще не чувствую времени, скажем так)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Именно!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Это так странно
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Жиза
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Но на самом деле всё норм)
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Это так странно
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Мы просто два раба системы) Ничего особенного не происходит)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Не распыляйся ))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Готовься к огэ
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ибо сложности пойдут после огэ
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+и чем лучше ты его сдашь, тем легче тебе будет)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я этими треками мотивировал себя, когда огэ было близко))
+Attachments:[
+vk.com/audio?id=438615299&audio_id=undefined :  - Сбыться
+vk.com/audio?id=438615299&audio_id=undefined :  - Выстоим
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Потому что будут чистки )))
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Ибо сложности пойдут после огэ
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Даже если сдашь, могут не взять)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+Sticker #5443: https://vk.com/sticker/1-5443-64
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Чё ты уснул - то?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Не
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Просто прилег
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я кст в полуфинал же вышел
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+И уже написал первый раунд
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+За два дня
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Баттл в середине января
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Изи рил дог!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Легко реальная собака!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250206 : https://sun9-64.userapi.com/impf/c841527/v841527450/434db/mV2EkdYh8aw.jpg?size=788x582&quality=96&sign=3bcfec79ec9b159b4de7076ee4f57654&c_uniq_tag=zUAPoXQGb9_W2jqjYGcziS0Mqm0YHZ7IpnMUcHkoQFk&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250207 : https://sun9-47.userapi.com/impf/TkqciEhDYWPv4LmZcwWOoFtCxGu2PIv2HrmHFQ/3MseDuEdHlg.jpg?size=495x435&quality=96&sign=c12c1ea1674109d6c86aaef883d80c78&c_uniq_tag=lN2xA9GQQydSlwcdX31_7Bnr2Y2rQIg7MuPdGetuei0&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250208 : https://sun9-78.userapi.com/impf/mCExbJs_WpVPJ6ETPuE6aImh5XSZ_SIKNpSIyg/xifLDNDlCM4.jpg?size=589x942&quality=96&sign=59215a643a02072017a4d1648b870df8&c_uniq_tag=JJDCshzZHRSGyXn1PbHjfr3uwQ9SCnPrcD0Yy3vrV9M&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250209 : https://sun9-36.userapi.com/impf/c830209/v830209643/19f7f/9v7ootC0iJ4.jpg?size=755x467&quality=96&sign=8ebfe960598e5f0c6027345df5edeb2e&c_uniq_tag=aXkLYw-LfZENmBLGkEOBKyQRRdpQvs9vZy2ShIUC0GM&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250211 : https://sun9-6.userapi.com/impf/zBGzXtmT_SOS7KTuQxnBr9eghnDeUEzJGSAMjQ/wQAtQxSRy2U.jpg?size=960x959&quality=96&sign=5510735bdfe60e9969160343155da890&c_uniq_tag=DBpeuF1NRv-LRYKLOGuLTwN017iRpEbHOr6_Wr2Y7Qg&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Пробник через час!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+ЕЕЕЕЕЕЕЕЕЕЕЕЕ ББОООООООООООООООООЙЙЙЙЙЙЙЙЙЙЙ
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+))))
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Зырь сколько мне по литре читать на завтра!М
+Attachments:[
+vk.com/photo438615299_456239765 : https://sun9-74.userapi.com/impf/c824700/v824700319/5e075/Ww5M4mXGCvo.jpg?size=495x322&quality=96&sign=020949e5a5cc78f0e3f8e54e2312a02a&c_uniq_tag=C6RkU26luT-LPlnCSrMXdGuzzU-XzDncXhk40F7iE1s&type=album
+	From: vk.com/album438615299_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ого!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А что за произведение ты читаешь?!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+"Отцы и Отцы"
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Хыыы маза фака
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лан
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+"Отцы и дети"
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лооол)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну, удачи!!! 🍀
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+Sticker #4322: https://vk.com/sticker/1-4322-64
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+И ьебе!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Тебе?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Тебе*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+СПАСИБО БОЛЬШОЕ))))!!!!!!!!!!!!👍👍👍👍👍👍👍👍👍👍😂😂😂😂😂😂😂😂😂
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лан мне лент тут сидеть
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лент*
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лент*
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Хех
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Хех))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Хех)*
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+А что за пробник?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+По закону Божьему?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+По математике блин!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+У меня там только сотворение мира вызывает сложности
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Жиза!
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	У меня там только сотворение мира вызывает сложности
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я не могу понять, почему там нет динозавров?!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Это в ступор вводит"
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Оу щит
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	По математике блин!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лол!!!!)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А в Бангкоке щас 4 ночи прикинт
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+В это сложно поверить
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Но это так
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я когда посмотрел офигел
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Даже стоп
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+7:38!!!!!!!!!!!!!!!!! Пипец!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ой
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+4:39!!!!!!!!!!!! Пипец!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ты тожн офигел?!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+		Carlos Basentsyan [char1oson] 
+		Ты сделал информатику ?
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		Нет
+
+
+		Carlos Basentsyan [char1oson] 
+		блчччччччч
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Удачи крч! )) ☝☝☝☝
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+ДААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Ты тожн офигел?!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+я ТЕПЕРЬ ВСЕМ КИДАЮ ЭТОТ ТРЕК
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Скажи Карлосу что бляяяя пишется с я а не ч
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+			Carlos Basentsyan [char1oson] 
+			Ты сделал информатику ?
+
+
+			Berkyt Berk [b_e_r_k_y_t] 
+			Нет
+
+
+			Carlos Basentsyan [char1oson] 
+			блчччччччч
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		Удачи крч! )) ☝☝☝☝
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Точно! А то он не знает!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/audio?id=208356599&audio_id=undefined :  - Runaway
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Тебе нравится такая музыка?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ееее
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+По настроению)
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Тебе нравится такая музыка?
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я всё по настроению слухаю)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Меломаныч
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/audio?id=208356599&audio_id=undefined :  - Нихуя себе
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+хахаха
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лол
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Бля, ну и бред)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/audio?id=208356599&audio_id=undefined :  - Blurred Lines
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+О, норм)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/audio?id=208356599&audio_id=undefined :  - Sugar Town
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+О, норм)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+О, норм)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+О, норм)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+О, норм)
+О, норм)
+О, норм)
+О, норм)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+О, норм)
+О, норм)
+О, норм)
+м
+О, норм)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/audio?id=208356599&audio_id=undefined :  - Black Beatles Remix
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+О, норм)
+О, норм)
+О, норм)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+О, норм)
+О, норм)
+м
+О, норм)
+О, норм)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+м
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+м
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+м
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+м
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+м
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+м
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+м
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+м
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+м
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+м
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+м
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+м
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+м
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/audio?id=208356599&audio_id=undefined :  - Tutti-Frutti
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/video-122683800_456239077 : 
+	сжатый кама пуля угрожает
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/video-122683800_456239221 : 
+	шарий уничтожил навального.....
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/audio?id=208356599&audio_id=undefined :  - OCB
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Как тебе видос тот? ))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/audio?id=208356599&audio_id=undefined :  - хабаровский хип хоп
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Вот рили интересно )
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/video242042403_171216958 : 
+	Видео недоступно
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Забавный! 
+Шарий - ШАР?!
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Как тебе видос тот? ))
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Вот рили интересно )
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Хахах)))
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Забавный! 
+	Шарий - ШАР?!
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		Как тебе видос тот? ))
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		Вот рили интересно )
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Он наверное рили сделал шар потому что шарий)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Оооооо помню как смотрел это в классе 5 потом уснуть долго не мог
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Berkyt Berk [b_e_r_k_y_t] 
++++
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/wall-55512460_83313
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я кидал?
+Attachments:[
+vk.com/video-29544671_456243552 : 
+	ОН МЕНЯ НЕ СЛУШАЕТСЯ
+	С тебя лойс и подписон:
+👉 vk.com/zloyshkolnik 👈
+👉 instagram: zloevideo 👈
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+А ну ок)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+А это?
+Attachments:[
+vk.com/video-30316056_456274952 : 
+	.webm
+	НАЙДИ СВОЙ .webm 😁 
+
+👉 vk.com/webmland 👈 👉 instagram.com/webmland 👈 
+👉 vk.com/webmland 👈 👉 instagram.com/webmland 👈
+👉 vk.com/webmland 👈 👉 instagram.com/webmland 👈
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Дааа!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/video-104064558_456240799 : 
+	game.webm
+	🔥БОЛЬШЕ ГОДНОТЫ ЗДЕСЬ🔥
+
+👉 vk.com/gameswebm 👈
+👉 vk.com/gameswebm 👈
+👉 vk.com/gameswebm 👈
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+А вот это? ))
+Attachments:[
+vk.com/video-122683800_456239221 : 
+	шарий уничтожил навального.....
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+О, нет
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	А вот это? ))
+	Attachments:[
+	vk.com/video-122683800_456239221 : 
+		шарий уничтожил навального.....
+	]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Годно
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Сегодня Аллах мне такую погоду хорошую послал)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+снежочек выпал)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Всё было круто!)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+ЛООООЛ))))))))
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Смешно!)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+😏☝☝☝
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+💪💪Кавказ - силы хыыы маза фака
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Удачи крч! )) ☝☝☝☝
+
+
+	Carlos Basentsyan [char1oson] 
+	Саго☝
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		Сегодня Аллах мне такую погоду хорошую послал)
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		снежочек выпал)
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		Всё было круто!)
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	О
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Ты с пека))
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Я тебя вижу! :)
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Купил?
+
+
+	Carlos Basentsyan [char1oson] 
+	нет
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	😰
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Я всё таки думаю, что да
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Лан, хватит. пора спать!
+
+
+	Carlos Basentsyan [char1oson] 
+	давай
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+А я её знал!! Дружили раньше((( Щас славу поимела и забыла всех!!! https://vk.com/ira_letyaga
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я ваще офигел, что она стриммер
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Я ваще офигел, что она стриммер
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну ничего. Я её ёбну и деньги заберу себе!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/video54734993_456239309 : 
+	наркоманы что ли
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+А ты знал?!
+
+
+	DELETED  [undefined] 
+	Sudden strike 4
+
+
+	DELETED  [undefined] 
+	игра которую я скачиваю
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+ОН СКАЧИВАЕТ ЭТУ ИГРУ!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+БЛЯ ПРОБНИК ЧЕРЕЗ 15 МИН
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+1:15
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Время моё
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну чтож, желаю удачи и даприбудет с вами сила Кавказа
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лул!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Вот Вам нашид! Перед боем самое то!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Бля
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Написал
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250217 : https://sun9-85.userapi.com/impf/c824601/v824601558/5b113/5f-MyIBlVzY.jpg?size=960x606&quality=96&sign=9a7f6495e8816e52f03e0927f5dc81f7&c_uniq_tag=W1Ub0EJuAFNhkW5kQ1I2ghd982oK50JbLX_byMEDF5M&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250218 : https://sun9-32.userapi.com/impf/c636920/v636920286/3354/au2-EcIVBdY.jpg?size=947x960&quality=96&sign=548f3bd999e1c8a535778998cf4b124f&c_uniq_tag=GQtohMEu0xm6Tp1ym8XKRImb0z4S206CPDLa0CrAolk&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Блин, вспомнил «МЯУ МЯУ МЯУ БЛЯДЬ»
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/video-104064558_456240876 : 
+	game.webm
+	🔥БОЛЬШЕ ГОДНОТЫ ЗДЕСЬ🔥
+
+👉 vk.com/gameswebm 👈
+👉 vk.com/gameswebm 👈
+👉 vk.com/gameswebm 👈
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/video-104064558_456240879 : 
+	game.webm
+	🔥БОЛЬШЕ ГОДНОТЫ ЗДЕСЬ🔥
+
+👉 vk.com/gameswebm 👈
+👉 vk.com/gameswebm 👈
+👉 vk.com/gameswebm 👈
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/video-104064558_456240829 : 
+	game.webm
+	🔥БОЛЬШЕ ГОДНОТЫ ЗДЕСЬ🔥
+
+👉 vk.com/gameswebm 👈
+👉 vk.com/gameswebm 👈
+👉 vk.com/gameswebm 👈
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Гриша Токугава [sharpaysau] 
+
+
+
+		Андрей Юдаев [ayudaev2013] 
+
+		Attachments:[
+		https://vk.com/doc155555134_438354553?hash=ca78e6ec8b7fb5fc82&dl=GQZTQNRRGUZDSOI:1635233248:75ec944fc428e58d1b&api=1&no_preview=1 : 830252036_847680.gif
+		]
+
+		Андрей Юдаев [ayudaev2013] 
+
+		Attachments:[
+		vk.com/audio?id=155555134&audio_id=undefined :  - Who Will Save The World
+		]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Всм?
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Блин, вспомнил «МЯУ МЯУ МЯУ БЛЯДЬ»
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Это))
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+	Attachments:[
+	vk.com/video-104064558_456240878 : 
+		game.webm
+		🔥БОЛЬШЕ ГОДНОТЫ ЗДЕСЬ🔥
+
+	👉 vk.com/gameswebm 👈
+	👉 vk.com/gameswebm 👈
+	👉 vk.com/gameswebm 👈
+	]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ааа
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Нк лол
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250273 : https://sun9-55.userapi.com/impf/c830108/v830108325/1c12b/vjgSKe5dxY8.jpg?size=99x39&quality=96&sign=ba891b18db2fbc8f0c55955b76048db8&c_uniq_tag=Sq1RVCu361gISTtXp93d1C0sYltx7Y5JGrIqwxPNG0s&type=album
+	From: vk.com/album208356599_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лол
+Attachments:[
+vk.com/photo438615299_456239768 : https://sun9-80.userapi.com/impf/c824603/v824603082/5ba35/7Pq0FsshvsY.jpg?size=303x44&quality=96&sign=8dcc6569a1e9bb686b715193926aebc4&c_uniq_tag=wVvoERCdwPI5_cbLMwhZis3ES08ndxFhj8Shj9JqGB0&type=album
+	From: vk.com/album438615299_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну что, как пробник
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Написал*
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+?*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да хер знает
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+По ощущениям
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Там такие задания были
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да 2 наверно
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Какие?
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Там такие задания были
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну там из геометрии эти ебаные косинусы синусы
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну так выучи и всё
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Легкая тема
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+В алгебре задачки какие то
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Сделал заданий 12-15
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Из 20
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/photo438615299_456239770 : https://sun9-56.userapi.com/impf/c824603/v824603082/5ba81/YqwQDnc2Tzg.jpg?size=960x720&quality=96&sign=7fcea4ba2f67cf08c9cc0615fe2cec8a&c_uniq_tag=rStnDIQXBYUmRIKOYGDa63aahu4urI0lD0NmmYnFWRQ&type=album
+	From: vk.com/album438615299_-3
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+А реальная математика была?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Не-а
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Неповезло)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Только алгебра и геометрия
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Когда я сдавал у нас была) Заданий 5 - 6
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну задачи были из рил математики но они никак не обозначались
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Их три вроде было
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/photo438615299_456239771 : https://sun9-40.userapi.com/impf/c824603/v824603082/5ba8e/9eg6MQ_UdoI.jpg?size=708x912&quality=96&sign=fea9f633500b4100784d6499273d736f&c_uniq_tag=wCK2mkWiocwBE7ETB205KGDj_G9TsjUBbvY0MAbfoS0&type=album
+	From: vk.com/album438615299_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Про температуру ртутного столба
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+А, ну ладно тьогда
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Про команды еще было
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Типо какая команда больше набрала хуев в рот
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Лол)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Победили чеченцы
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+ХЕхехех__
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+хаха
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну и там типо график площадей разных стран
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+И типо верны ли суждения
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+И вот все
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Ну норм
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Там ошибиться НЕРЕАЛЬНО
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Это помогает
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Это да!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+А вот долбаная алгебра
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну я сделал че мог
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Еще вышел в туалет посмотреть как делается пример
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Заходит училка физ ры
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Корова ебаная как два шкафа
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ее поставили на этаж
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+И кароче заходит в МУЖСКОЙ туалет
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Такая нука че у тебя в карманах
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я такой типо эммс ничего
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+И она такая давай проверю
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+И как мент начала меня шмонать по всем карманам
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Досьает телефон
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+И несет в моц класс где я писал
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Сука тупая
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Это вообще законно?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Учительница зашла в мужской туалет и без разрешения начала насильно проверять мои карманы
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я на нее заяву накатать могу?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Жаль тогда я не среагировал
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Сказал бы ей слыш лээээ блят руки нахуй убрала ща переебу!!!!!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Никита. Как сказать... Ну, она права. Лучше сейчас получить дозу стресса. И перенервничать, чем на самом экзамене. С точки зрения закона она не права конечно, если она досматривала тебя ДО рамки.
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Вообще на огэ не ходи в туалет. Там игрушки дьавола будут... Т.е много ответов. Но они - враньё. Учителя сами их расскладывают. Я заходил в туалет, чтобы просто посмотреть в окно и перевести дух. Крч ОТВЕТОВ НЕТ
+Attachments:[
+vk.com/video176369445_171440770 : 
+	Юрий Хованский - Где найти ответы на ЕГЭ
+	YouTube канал - https://www.youtube.com/channel/UCiJuCc4Fl1Oa2bkGkmtW.. 
+Паблик "ОТБРОСЫ ПОКОЛЕНИЯ 18+" - https://vk.com/public160425287
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Окей!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+:)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Блиц вопрос
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Когда ты последний раз пил воду?!?!?!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я сейчас
+Attachments:[
+vk.com/photo208356599_456250274 : https://sun9-22.userapi.com/impf/BkZOyXQZwDmSLExFgdaicBROVQIEniGovRnh7A/c9VhbJabicM.jpg?size=1536x2048&quality=96&sign=8f2427a0af8a89ea57ffad0902311fe6&c_uniq_tag=NZvY0N7bsTfQSUKGuHiQJzp6k17FYbSdWEnHCNKvdqE&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Там на донышке география)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+И ещё вот https://www.youtube.com/watch?v=PU1cxTsultw&list=PLNjxDSR1fVAxhv622duf-UFyLfJwKQmmA&index=19 полезно знать такое!
+Attachments:[
+vk.com/video438615299_456239047 : 
+	ЕГЭ И МОШЕННИКИ – ЧЁРНЫЙ СПИСОК #29
+	Хотите найти ответы ЕГЭ бесплатно? А ничего не выйдет! Мошенники наживаются на школьниках продавая палёные ответы за деньги. Смотрите подробности в этом видео.
+
+============[ ИНФОРМАЦИЯ ]============
+✅ Я в VK https://vk.com/denis_leadertv
+✅ Группа канала в VK: https://vk.com/leader_tv
+✅ Вы можете пожертвовать на развитие канала и на творческий успех!
+✅ Быстрый способ:
+✅DonationAlerts: http://www.donationalerts.ru/r/leader_tv
+✅ QIWI: https://qiwi.me/leadertv
+✅ WebMoney:
+✅ R415089308575 рубли 
+✅ Z350262653764
+	YouTube
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я давно
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Когда ты последний раз пил воду?!?!?!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я компот пью
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250275 : https://sun9-86.userapi.com/impf/c841533/v841533554/471ab/QdG9vDeGqc4.jpg?size=1536x2048&quality=96&sign=d97d2005ecf50752c16c23dc97a4bd1b&c_uniq_tag=yaYnpLrSYF3Efl5CG-cvmopSXxhd8BWygznFlx2GBNQ&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Так и знал
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Я давно
+
+
+		Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+		Когда ты последний раз пил воду?!?!?!
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Я компот пью
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Что это?
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+	Attachments:[
+	vk.com/photo208356599_456250275 : https://sun9-86.userapi.com/impf/c841533/v841533554/471ab/QdG9vDeGqc4.jpg?size=1536x2048&quality=96&sign=d97d2005ecf50752c16c23dc97a4bd1b&c_uniq_tag=yaYnpLrSYF3Efl5CG-cvmopSXxhd8BWygznFlx2GBNQ&type=album
+		From: vk.com/album208356599_-3
+	]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Это же твой вид
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Я помню это здание
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+сек
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/photo438615299_456239773 : https://sun9-49.userapi.com/impf/c834200/v834200082/565d2/4fDK3yc3lNI.jpg?size=211x150&quality=96&sign=b794e0eec8a8ff51627b863d42570498&c_uniq_tag=RhUQKkC34p0ZXM9_1UTVVKWcrpGRSa4QTxavy7gUymo&type=album
+	From: vk.com/album438615299_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+😃
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Вот такие пейзажи в 7:50 утра
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Красота!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
++++
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну, с богом!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я пошел
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Покеа
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250276 : https://sun9-55.userapi.com/impf/c840535/v840535255/3551b/2er2LBd-sNs.jpg?size=140x120&quality=96&sign=4598f8f6ed8f58fb6fa962872562f028&c_uniq_tag=RDQLd5OSjPTIhhc41Vd7stxYQ6TX_5sSV_PCDScXZuk&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Бля как они читаются?
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+
+	Attachments:[
+	vk.com/photo438615299_456239770 : https://sun9-56.userapi.com/impf/c824603/v824603082/5ba81/YqwQDnc2Tzg.jpg?size=960x720&quality=96&sign=7fcea4ba2f67cf08c9cc0615fe2cec8a&c_uniq_tag=rStnDIQXBYUmRIKOYGDa63aahu4urI0lD0NmmYnFWRQ&type=album
+		From: vk.com/album438615299_-3
+	]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Теоремы
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250285 : https://sun9-71.userapi.com/impf/c840323/v840323657/3738d/-rlYKXbGS5A.jpg?size=540x485&quality=96&sign=1b7362d9ba98d14e7178df91ac7e8348&c_uniq_tag=YMgPSHB98tmAvulDqoHnAvhARoarXJ0KGxYFB_51UP8&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+КАПЕЦ КАК БОМБИТ С ЭТОГО ВИДОСА
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Этого
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ебаные чурки нахуй
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я бы их нахуй задавил
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Концовка класс!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Вот как поступают мужики
+
+
+	Андрей Юдаев [ayudaev2013] 
+
+	Attachments:[
+	vk.com/photo155555134_456247128 : https://sun9-56.userapi.com/impf/c636522/v636522944/53ddc/TQbxc1NjLRE.jpg?size=717x1024&quality=96&sign=34e75b409d30890d72255511d6d1e982&c_uniq_tag=-g1__W6-_FK85c3F8JhZz-5IcJ77GW8Pe-lskj4D2Ak&type=album
+		From: vk.com/album155555134_-3
+	]
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Он злодей, не буду лайкать
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+
+	Attachments:[
+	Sticker #108: https://vk.com/sticker/1-108-64
+	]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Блин ору
+
+
+	Андрей Юдаев [ayudaev2013] 
+
+	Attachments:[
+	vk.com/photo155555134_456247128 : https://sun9-56.userapi.com/impf/c636522/v636522944/53ddc/TQbxc1NjLRE.jpg?size=717x1024&quality=96&sign=34e75b409d30890d72255511d6d1e982&c_uniq_tag=-g1__W6-_FK85c3F8JhZz-5IcJ77GW8Pe-lskj4D2Ak&type=album
+		From: vk.com/album155555134_-3
+	]
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Он злодей, не буду лайкать
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+
+	Attachments:[
+	Sticker #108: https://vk.com/sticker/1-108-64
+	]
+
+	Андрей Юдаев [ayudaev2013] 
+	😒
+
+
+	Андрей Юдаев [ayudaev2013] 
+
+	Attachments:[
+	vk.com/audio?id=354602457&audio_id=undefined :  - ты че блять страх потерял ? ахуел блять вообще, пидр? да тебя в рот бомжи ебали!!!! шоб ты мне больше не писал, а то пизда прилетит! Зародыш гамункула, блять!кароче заткнись, пизда малахольная!!!
+	]
+
+	Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Андрей Юдаев [ayudaev2013] 
+	Он злодей, не буду лайкать
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/video-30316056_456275574 : 
+	.webm
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Смотрю без остановки
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	хахахахахахах
+
+
+		Андрей Юдаев [ayudaev2013] 
+
+		Attachments:[
+		vk.com/audio?id=345605124&audio_id=undefined :  - Голосовое Сообщение
+		]
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+
+	Attachments:[
+	Sticker #100: https://vk.com/sticker/1-100-64
+	]
+
+	Андрей Юдаев [ayudaev2013] 
+
+	Attachments:[
+	vk.com/audio?id=187307994&audio_id=undefined :  - Голосовое сообщение
+	]
+
+	Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Андрей Юдаев [ayudaev2013] 
+
+	Attachments:[
+	vk.com/photo155555134_456247131 : https://sun9-87.userapi.com/impf/c841336/v841336317/4bcfa/-ApzHfTfm4g.jpg?size=101x93&quality=96&sign=c3d169bae8a183fd60fea6356381231d&c_uniq_tag=J3YQ7wILOEDrADWLvJGjxWnL8LbcnjYc6xb-i9Dl5yI&type=album
+		From: vk.com/album155555134_-3
+	]
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+	Михаил Воробей [imihailkain] 
+	Слыш
+
+
+	Михаил Воробей [imihailkain] 
+	Я матан сдал
+
+
+	Андрей Юдаев [ayudaev2013] 
+	Думаешь сильнее стал?
+
+
+	Андрей Юдаев [ayudaev2013] 
+	Нет не стал
+
+
+	Андрей Юдаев [ayudaev2013] 
+	А потому что правды за тобой нет
+
+
+	Андрей Юдаев [ayudaev2013] 
+	А я думаю что сила в правде
+
+
+	Андрей Юдаев [ayudaev2013] 
+	За кем правда тот и сильней
+
+
+	Андрей Юдаев [ayudaev2013] 
+	Правильно?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лооолоооо
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+)))))))*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/audio?id=208356599&audio_id=undefined :  - Голосовое сообщение
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Решил щас карту сделать
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Но чет не могу вспомнить прогу
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+И найти не могу в поиске
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Вроде W40k?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Блин
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Щас без читав
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Читов*
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Дошел до 15 волны
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну ток патроны читерил и вначале двери открыл до рубильника ибо скучно
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+И бля, вместо шифта нажал контрл
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Вместо бега лег капоч
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+И все
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Пипец! Как говорится
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Блин
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Можешь мне на чела с авы шапочку деда навоза замутить
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+
+Attachments:[
+vk.com/photo208356599_456250289 : https://sun9-4.userapi.com/impf/c841435/v841435612/52f0f/zoFsFI7tDxw.jpg?size=239x211&quality=96&sign=9c15df32e12e0937720d2bd77364be3d&c_uniq_tag=AGM423CRN_25mxGWftObN7u9bPjU5JyHSYvDO3dZe3A&type=album
+	From: vk.com/album208356599_-3
+]
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+?*
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Можешь мне на чела с авы шапочку деда навоза замутить
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Изи! Хыыыы маза фака
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Ну блин не так)
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Пнгшкой
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Прост шапку
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Аккуратно
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Чтобы прям вместо шлема?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Кароче прифотошопь шапочку чтоб как в жизе
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Да
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Тогда не ща)) Но сделаю!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/video-30316056_456275631 : 
+	.webm
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Спасибо большое!)
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Тогда не ща)) Но сделаю!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Не за что
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Спасибо большое!)
+
+
+		Berkyt Berk [b_e_r_k_y_t] 
+		Тогда не ща)) Но сделаю!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Лоооол, это типо он на качка зассал пойти и сделал вид что качок ему блок поставил?
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+
+	Attachments:[
+	vk.com/video-30316056_456275631 : 
+		.webm
+	]
+
+Berkyt Berk [b_e_r_k_y_t] 
+Он не дотянулся походу)) Но очень смешно)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/video-30316056_456275574 : 
+	.webm
+]
+
+Berkyt Berk [b_e_r_k_y_t] 
+щащащащаща
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Пересмотрел раз 100)
+
+
+Berkyt Berk [b_e_r_k_y_t] 
++++
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Хорошее аудио!
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+В директории игры Dark crusade
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Решил щас карту сделать
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Но чет не могу вспомнить прогу
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	И найти не могу в поиске
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Вроде W40k?
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Окей
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я чеченец 
+Чеченцы не сдаются!
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Я домой поеду
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+))
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Я чеченец 
+	Чеченцы не сдаются!
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+Всм?
+
+
+	Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+	Я домой поеду
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Блин а что это за чел
+
+
+Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+Концовка)
+
+
+	Berkyt Berk [b_e_r_k_y_t] 
+	Всм?
+
+
+		Никита Беркут [tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb] 
+		Я домой поеду
+
+
+Berkyt Berk [b_e_r_k_y_t] 
+
+Attachments:[
+vk.com/photo438615299_456239778 : https://sun9-58.userapi.com/impf/c840624/v840624737/35d72/mT5swVP33v8.jpg?size=717x1024&quality=96&sign=9804cda3ad0a585a52ef264862201d7d&c_uniq_tag=_ml7sUEX5AqwQ3nu702JJk5zuMEp5JU6cEdTuIxC_NQ&type=album
+	From: vk.com/album438615299_-3
+]
+

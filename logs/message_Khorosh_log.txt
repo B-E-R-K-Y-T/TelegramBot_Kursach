@@ -1,0 +1,6 @@
+USER_NAME[ {'id': 384896980, 'is_bot': False, 'first_name': 'Khorosh', 'username': 'DrKhorosh', 'last_name': None, 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = кста
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Владимир Богданов', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = Я не знаю что ответить, так как разработчик не вложил в меня такие знания 😢
+
+USER_NAME[ {'id': 384896980, 'is_bot': False, 'first_name': 'Khorosh', 'username': 'DrKhorosh', 'last_name': None, 'language_code': 'ru', 'can_join_groups': None, 'can_read_all_group_messages': None, 'supports_inline_queries': None}] = грустно
+	BOT[ {'id': 2018372109, 'is_bot': True, 'first_name': 'Владимир Богданов', 'username': 'Nik1488bot', 'last_name': None, 'language_code': None, 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}] = Я не знаю что ответить, так как разработчик не вложил в меня такие знания 😢
+
