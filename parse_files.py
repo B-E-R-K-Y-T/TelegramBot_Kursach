@@ -1,5 +1,6 @@
 # This file is my file(BERKYT)
 
+
 def del_attachments(start='Attachments:[', end=']'):
     for i in range(1, 58):
         with open(r'data/dialogs_vk/dialog{0}.txt'.format(i), 'r') as f:
@@ -37,7 +38,7 @@ def del_nickname(start='Berkyt Berk', end='Никита Беркут', id_vk='[b
             line = f.readline()
             if start in line:
                 while length < count:
-                    length += 1 # Вот над этой хуйнёй я сидел сука 4 часа и не мог понять че делать бля. Т
+                    length += 1
                     line = f.readline()
                     if end in line:
                         break

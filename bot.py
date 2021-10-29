@@ -1,7 +1,11 @@
-import telebot
-import config
-import random
 import os
+import random
+
+import apiai
+import json
+import telebot
+
+import config
 
 bot = telebot.TeleBot(config.TOKEN)
 
@@ -73,15 +77,35 @@ def speak(message):
                   'BOT[ ' + str(bot.get_me()) + '] = ' + str(output) + '\n',
                   file=open(r'logs/message_{0.first_name}_log.txt'.format(message.from_user), 'a'))
 
+    # def textMessage(s):
+    #     # Токен API к Dialogflow
+    #     request = apiai.ApiAI('Ваш Dialogflow токен').text_request()
+    #     # На каком языке будет послан запрос
+    #     request.lang = 'ru'
+    #     # ID Сессии диалога (нужно, чтобы потом учить бота)
+    #     request.session_id = '3301megabot'
+    #     # Посылаем запрос к ИИ с сообщением от юзера
+    #     request.query = s
+    #     responseJson = json.loads(request.getresponse().read().decode('utf-8'))
+    #     # Разбираем JSON и вытаскиваем ответ
+    #     response = ''
+    #     response = responseJson['result']['fulfillment']['speech']
+    #     # Если есть ответ от бота - выдаём его,
+    #     # если нет - бот его не понял
+    #     if response:
+    #         return response
+    #     else:
+    #         return 'Я Вас не совсем понял!'
+
     # ПИСАТЬ КОД ТУТ:
     # ------------------------------------------------------------------------------------------------------------------
     # ------------------------------------------------------------------------------------------------------------------
 
     if message.chat.type == 'private':
         # Включить(on) или выключить(off) функционал бота, который написал я
-        default_bot = on
+        default_bot = off
         # Включить(on) или выключить(off) функционал бота, который написал ты
-        custom_bot = off
+        custom_bot = on
 
         # ТУТ НУЖНО ПИСАТЬ СВОЙ ФУНКЦИОНАЛ
         # --------------------------------------------------------------------------------------------------------------
@@ -99,6 +123,10 @@ def speak(message):
             print_to_chat('Привет, как дела?', 'СЮДА НЕЛЬЗЯ ПИСАТЬ НИЧЕГО, КРОМЕ "t" или "s"!!! Иначе, будет ошибка!')
             # Несуществующий стикер
             print_to_chat(stickers('НЕСУЩЕСТВУЮЩИЙ СТИКЕР.webp'), 's')
+
+            # while text != 'Выход':
+            #     text = str(message.text).lower()
+            #     print_to_chat(textMessage(text), 't')
 
         # --------------------------------------------------------------------------------------------------------------
 
