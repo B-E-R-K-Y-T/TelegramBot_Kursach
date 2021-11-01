@@ -1,39 +1,60 @@
 # This file is my file(BERKYT)
 
+# ----------------------------------------------------------------------------------------------------------------------
+
+# API для работы с PostgreSQL
+
+# ----------------------------------------------------------------------------------------------------------------------
 
 import psycopg2
 from config import host, user, password, database
 
+connection = None
 
-def open_db():
-    connection = None
+try:
+    assert isinstance(database, object)
+    connection = psycopg2.connect(
+        database=database,
+        user=user,
+        password=password,
+        host=host
+    )
+except Exception as e:
+    print('ERROR[open_db]: {}'.format(e))
+
+
+# Закрывает БД
+def close_db():
+    """
+        Закрывает БД
+    :return:
+        Ничего не возвращает.
+    """
     try:
-        assert isinstance(database, object)
-        connection = psycopg2.connect(
-            database=database,
-            user=user,
-            password=password,
-            host=host
-        )
-
-        # cursor = connection.cursor()
-        with connection.cursor() as cursor:
-            # cursor.execute(
-            #     'SELECT version();'
-            # )
-            cursor.execute(
-                "INSERT INTO public.ai (id, id_message, dialogs) values ({}, {}, '{}');"
-                    .format('0005', '05', 'ps   efef    d;ofij')
-            )
-            connection.commit()
-            print('Server version: {}'.format(cursor.fetchone()))
+        connection.close()
     except Exception as e:
-        print('ERROR: {}'.format(e))
-    finally:
-        if connection:
-            # cursor.close()
-            connection.close()
-            print("DB is closed")
+        print('ERROR[close_db]: {}'.format(e))
 
 
-open_db()
+# Принимает SQL-запрос и выполняет его
+def inquiry_to_db(inquiry, iteration=1):
+    """
+    :param inquiry:
+        Этот параметр принимает в себя string SQL-запрос.
+    :param iteration:
+        Этот параметр отвечает за количество вызовов вывода результата метода
+        на экран.
+    :return:
+        Ничего не возвращает.
+    """
+    try:
+        with connection.cursor() as cursor:
+            cursor.execute(inquiry)
+            connection.commit()
+            for i in range(iteration):
+                print(cursor.fetchone())
+    except Exception as e:
+        print('ERROR[inquiry_to_db]: {}'.format(e))
+
+
+inquiry_to_db("INSERT INTO public.ai (id, id_message, dialogs) values (0002, 02, '😎');")

@@ -1,6 +1,9 @@
 # This file is my file(BERKYT)
 
 
+import postgresql
+
+
 def del_attachments(start='Attachments:[', end=']'):
     for i in range(1, 58):
         with open(r'data/dialogs_vk/dialog{0}.txt'.format(i), 'r') as f:
@@ -58,11 +61,8 @@ def del_nickname(start='Berkyt Berk', end='Никита Беркут', id_vk='[b
             f.close()
 
 
-# with open(r'data/file_.txt', 'r') as f:
-#     while True:
-#         f.readline()
-#     f.close()
-
 del_attachments()
 del_nickname()
 del_nickname('Никита Беркут', 'Berkyt Berk', '[tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb]')
+
+# with open(r'data/file_{0}.txt'.format(start)) as f:
