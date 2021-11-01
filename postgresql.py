@@ -1,27 +1,39 @@
+# This file is my file(BERKYT)
+
+
 import psycopg2
-from config import host, user, password, db_name
+from config import host, user, password, database
 
 
 def open_db():
+    connection = None
     try:
-        assert isinstance(db_name, object)
+        assert isinstance(database, object)
         connection = psycopg2.connect(
-            host=host,
+            database=database,
             user=user,
             password=password,
-            db_name=db_name
+            host=host
         )
 
         # cursor = connection.cursor()
         with connection.cursor() as cursor:
+            # cursor.execute(
+            #     'SELECT version();'
+            # )
             cursor.execute(
-                'SELECT version();'
+                "INSERT INTO public.ai (id, id_message, dialogs) values ({}, {}, '{}');"
+                    .format('0005', '05', 'ps   efef    d;ofij')
             )
+            connection.commit()
             print('Server version: {}'.format(cursor.fetchone()))
     except Exception as e:
-        print(e)
+        print('ERROR: {}'.format(e))
     finally:
         if connection:
             # cursor.close()
             connection.close()
             print("DB is closed")
+
+
+open_db()

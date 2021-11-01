@@ -1,8 +1,11 @@
+# This file is my file(BERKYT)
+
+
 import os
 import random
 
-import apiai
-import json
+# import apiai
+# import json
 import telebot
 import postgresql
 
