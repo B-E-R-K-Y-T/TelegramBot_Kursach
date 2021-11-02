@@ -15,6 +15,6 @@ TOKEN = '2018372109:AAGvR5HUasGZPmrhxG6pAv_I7PXBBjmFTJ4'  # bot token (Токе�
 host = 'localhost'
 user = 'postgres'
 password = '1488'
-database = 'postgres'
+database = 'Telegram_Bot'
 
 # ----------------------------------------------------------------------------------------------------------------------

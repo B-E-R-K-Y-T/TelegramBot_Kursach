@@ -91,15 +91,36 @@ def create_answer_question(path, flag):
                         continue
 
 
-def generation_db(path):
+def generation_db(path, inquiry):
     with (open(path)) as f:
         count = sum(1 for _ in f)
-        print(count)
+        # print(count)
         f.close()
         with open(path) as f:
             for i in range(count):
-                postgresql.inquiry_to_db("INSERT INTO public.ai (id, id_message, dialogs) "
-                                         "values (000{}, 0{}, '{}');".format(str(i), str(i), f.readline()))
+                postgresql.inquiry_to_db("INSERT INTO public.{3} (id, id_message, dialogs) "
+                                         "values (000{0}, 0{1}, '{2}');".format(str(i), str(i),
+                                                                             f.readline(), str(inquiry)))
+
+
+def convert_file_to_db(dict_name, list_path):
+    for i in range(len(dict_name)):
+        with (open(r'data/file_{0}.txt'.format(str(list(dict_name.keys())[i])))) as f:
+            flag = dict_name[str(list(dict_name.keys())[i])]
+            print(flag)
+            str_dict = str(list(dict_name.keys())[i])
+            path = list_path[i]
+            try:
+                if flag:
+                    create_answer_question('data/file_{0}.txt'.format(str_dict),
+                                           flag)
+                    generation_db('data/{0}.txt'.format(path), 'usr')
+                else:
+                    create_answer_question('data/file_{0}.txt'.format(str_dict),
+                                           flag)
+                    generation_db('data/{0}.txt'.format(path), 'ai')
+            except Exception as e:
+                print(e)
 
 
 del_attachments()
@@ -107,28 +128,6 @@ del_nickname('Александр Хаметзянов', 'Аполлинария 
 del_nickname('Аполлинария Хорош', 'Александр Хаметзянов', '[casper_ff]')
 
 dict_name = {'Аполлинария Хорош': True, 'Александр Хаметзянов': False}
+list_path = ['answers', 'question']
 
-
-# ЭТОТ КОД НЕ РАБОТАЕТ - ИСПРАВИТЬ!
-# ----------------------------------------------------------------------------------------------------------------------
-with (open(r'data/file_{0}.txt'.format(str(list(dict_name.keys())[0]))))as f:
-    count = sum(1 for _ in f)
-    print(count)
-    f.close()
-    for i in range(count):
-        flag = dict_name[str(list(dict_name.keys())[i])]
-        print(flag)
-        str_dict = str(list(dict_name.keys())[i])
-        try:
-            if flag:
-                create_answer_question('data/file_{0}.txt'.format(str_dict),
-                                       flag)
-                generation_db('data/file_{0}.txt'.format(str_dict))
-            else:
-                pass
-                # create_answer_question('data/file_{0}.txt'.format(str_dict),
-                #                        flag)
-                # generation_db('data/file_{0}.txt'.format(str_dict))
-        except Exception as e:
-            print(e)
-# ----------------------------------------------------------------------------------------------------------------------
+convert_file_to_db(dict_name, list_path)
