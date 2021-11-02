@@ -25,11 +25,12 @@ except Exception as e:
 
 # Закрывает БД
 def close_db():
+
     """
-        Закрывает БД
     :return:
         Ничего не возвращает.
     """
+
     try:
         connection.close()
     except Exception as e:
@@ -38,6 +39,7 @@ def close_db():
 
 # Принимает SQL-запрос и выполняет его
 def inquiry_to_db(inquiry, iteration=1):
+
     """
     :param inquiry:
         Этот параметр принимает в себя string SQL-запрос.
@@ -47,6 +49,7 @@ def inquiry_to_db(inquiry, iteration=1):
     :return:
         Ничего не возвращает.
     """
+
     try:
         with connection.cursor() as cursor:
             cursor.execute(inquiry)
@@ -55,6 +58,3 @@ def inquiry_to_db(inquiry, iteration=1):
                 print(cursor.fetchone())
     except Exception as e:
         print('ERROR[inquiry_to_db]: {}'.format(e))
-
-
-inquiry_to_db("INSERT INTO public.ai (id, id_message, dialogs) values (0002, 02, '😎');")

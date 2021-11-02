@@ -5,7 +5,7 @@ import postgresql
 
 
 def del_attachments(start='Attachments:[', end=']'):
-    for i in range(1, 58):
+    for i in range(1):
         with open(r'data/dialogs_vk/dialog{0}.txt'.format(i), 'r') as f:
             count = sum(1 for _ in f)
             print(count)
@@ -61,8 +61,65 @@ def del_nickname(start='Berkyt Berk', end='Никита Беркут', id_vk='[b
             f.close()
 
 
-del_attachments()
-del_nickname()
-del_nickname('Никита Беркут', 'Berkyt Berk', '[tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb]')
+def create_answer_question(path, flag):
 
-# with open(r'data/file_{0}.txt'.format(start)) as f:
+    """
+    :param path:
+        Путь до файла который нужно разбить на ответы или вопросы
+    :param flag:
+        Является ли файл ответами? Иначе вопросы.
+    :return:
+        Ничего не возвращает.
+    """
+
+    with open(path) as f:
+        count = sum(1 for _ in f)
+        print(count)
+        f.close()
+        with open(path) as f:
+            for i in range(count):
+                line = str(f.readline())
+                if flag:
+                    if not line.isspace():
+                        print(line, file=open(r'data/answers.txt', 'a'), end='')
+                    else:
+                        continue
+                else:
+                    if not line.isspace():
+                        print(line, file=open(r'data/question.txt', 'a'), end='')
+                    else:
+                        continue
+
+
+def generation_db(path):
+    with (open(path)) as f:
+        count = sum(1 for _ in f)
+        print(count)
+        f.close()
+        with open(path) as f:
+            for i in range(count):
+                postgresql.inquiry_to_db("INSERT INTO public.ai (id, id_message, dialogs) "
+                                         "values (000{}, 0{}, '{}');".format(str(i), str(i), f.readline()))
+
+
+del_attachments()
+del_nickname('Александр Хаметзянов', 'Аполлинария Хорош', '[realcai_i_ia]')
+del_nickname('Аполлинария Хорош', 'Александр Хаметзянов', '[casper_ff]')
+
+dict_name = {'Аполлинария Хорош': True, 'Александр Хаметзянов': False}
+
+for i in range(len(dict_name)):
+    flag = dict_name[str(list(dict_name.keys())[i])]
+    str_dict = str(list(dict_name.keys())[i])
+    try:
+        if flag:
+            create_answer_question('data/file_{0}.txt'.format(str_dict),
+                                   flag)
+            generation_db('data/file_{0}.txt'.format(str_dict))
+        else:
+            pass
+            # create_answer_question('data/file_{0}.txt'.format(str_dict),
+            #                        flag)
+            # generation_db('data/file_{0}.txt'.format(str_dict))
+    except Exception as e:
+        print(e)
