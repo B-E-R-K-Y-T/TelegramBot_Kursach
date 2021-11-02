@@ -10,7 +10,7 @@ import postgresql
 
 
 def del_attachments(start='Attachments:[', end=']'):
-    for i in range(1):
+    for i in range(3):
         with open(r'data/dialogs_vk/dialog{0}.txt'.format(i), 'r') as f:
             count = sum(1 for _ in f)
             print(count)
@@ -48,7 +48,7 @@ def del_nickname(start='Berkyt Berk', end='Никита Беркут', id_vk='[b
                 while length < count:
                     length += 1
                     line = f.readline()
-                    if end in line:
+                    if line.isspace():
                         break
                     try:
                         print(line, file=open(r'data/file_{0}.txt'.format(start), 'a'), end='')
@@ -145,12 +145,23 @@ def convert_file_to_db(dict_name, list_path):
 
 
 del_attachments()
-del_nickname('Александр Хаметзянов', 'Аполлинария Хорош', '[realcai_i_ia]')
-del_nickname('Аполлинария Хорош', 'Александр Хаметзянов', '[casper_ff]')
-del_nickname('Самсор Разми', 'Аполлинария Хорош', '[hell_oworld]')
-del_nickname('Аполлинария Хорош', 'Самсор Разми', '[casper_ff]')
 
-dict_name = {'Аполлинария Хорош': True, 'Александр Хаметзянов': False}
+del_nickname('Александр Хаметзянов', 'Самсор Разми', '[realcai_i_ia]')
+del_nickname('Самсор Разми', 'Александр Хаметзянов', '[hell_oworld]')
+
+del_nickname('Аполлинария Хорош', 'Самсор Разми', '[casper_ff]')
+del_nickname('Самсор Разми', 'Аполлинария Хорош', '[hell_oworld]')
+
+del_nickname('Berkyt Berk', 'Аполлинария Хорош', '[b_e_r_k_y_t]')
+del_nickname('Аполлинария Хорош', 'Berkyt Berk', '[casper_ff]')
+
 list_path = ['answers', 'question']
 
-# convert_file_to_db(dict_name, list_path)
+dict_name = {'Александр Хаметзянов': True, 'Самсор Разми': False}
+convert_file_to_db(dict_name, list_path)
+
+dict_name = {'Аполлинария Хорош': True, 'Самсор Разми': False}
+convert_file_to_db(dict_name, list_path)
+
+dict_name = {'Аполлинария Хорош': True, 'Berkyt Berk': False}
+convert_file_to_db(dict_name, list_path)
