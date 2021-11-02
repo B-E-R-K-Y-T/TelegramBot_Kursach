@@ -108,18 +108,27 @@ del_nickname('Аполлинария Хорош', 'Александр Хамет
 
 dict_name = {'Аполлинария Хорош': True, 'Александр Хаметзянов': False}
 
-for i in range(len(dict_name)):
-    flag = dict_name[str(list(dict_name.keys())[i])]
-    str_dict = str(list(dict_name.keys())[i])
-    try:
-        if flag:
-            create_answer_question('data/file_{0}.txt'.format(str_dict),
-                                   flag)
-            generation_db('data/file_{0}.txt'.format(str_dict))
-        else:
-            pass
-            # create_answer_question('data/file_{0}.txt'.format(str_dict),
-            #                        flag)
-            # generation_db('data/file_{0}.txt'.format(str_dict))
-    except Exception as e:
-        print(e)
+
+# ЭТОТ КОД НЕ РАБОТАЕТ - ИСПРАВИТЬ!
+# ----------------------------------------------------------------------------------------------------------------------
+with (open(r'data/file_{0}.txt'.format(str(list(dict_name.keys())[0]))))as f:
+    count = sum(1 for _ in f)
+    print(count)
+    f.close()
+    for i in range(count):
+        flag = dict_name[str(list(dict_name.keys())[i])]
+        print(flag)
+        str_dict = str(list(dict_name.keys())[i])
+        try:
+            if flag:
+                create_answer_question('data/file_{0}.txt'.format(str_dict),
+                                       flag)
+                generation_db('data/file_{0}.txt'.format(str_dict))
+            else:
+                pass
+                # create_answer_question('data/file_{0}.txt'.format(str_dict),
+                #                        flag)
+                # generation_db('data/file_{0}.txt'.format(str_dict))
+        except Exception as e:
+            print(e)
+# ----------------------------------------------------------------------------------------------------------------------
