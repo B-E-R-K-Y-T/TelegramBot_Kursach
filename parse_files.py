@@ -147,8 +147,10 @@ def convert_file_to_db(dict_name, list_path):
 del_attachments()
 del_nickname('Александр Хаметзянов', 'Аполлинария Хорош', '[realcai_i_ia]')
 del_nickname('Аполлинария Хорош', 'Александр Хаметзянов', '[casper_ff]')
+del_nickname('Самсор Разми', 'Аполлинария Хорош', '[hell_oworld]')
+del_nickname('Аполлинария Хорош', 'Самсор Разми', '[casper_ff]')
 
 dict_name = {'Аполлинария Хорош': True, 'Александр Хаметзянов': False}
 list_path = ['answers', 'question']
 
-convert_file_to_db(dict_name, list_path)
+# convert_file_to_db(dict_name, list_path)
