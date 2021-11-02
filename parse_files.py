@@ -1,5 +1,10 @@
 # This file is my file(BERKYT)
 
+# ----------------------------------------------------------------------------------------------------------------------
+
+# API для добавления диалогов в PostgreSQL
+
+# ----------------------------------------------------------------------------------------------------------------------
 
 import postgresql
 
@@ -92,6 +97,15 @@ def create_answer_question(path, flag):
 
 
 def generation_db(path, inquiry):
+
+    """
+    :param path:
+        Принимает путь до файла
+    :param inquiry:
+        Принимает sql-запрос
+    :return:
+    """
+
     with (open(path)) as f:
         count = sum(1 for _ in f)
         # print(count)
@@ -104,6 +118,15 @@ def generation_db(path, inquiry):
 
 
 def convert_file_to_db(dict_name, list_path):
+
+    """
+    :param dict_name:
+        Принимает словарь флагов-переключателей истина - пользователь иначе - ИИ
+    :param list_path:
+        Принимает список названий файлов, которые надо создать.
+    :return:
+    """
+
     for i in range(len(dict_name)):
         with (open(r'data/file_{0}.txt'.format(str(list(dict_name.keys())[i])))) as f:
             flag = dict_name[str(list(dict_name.keys())[i])]

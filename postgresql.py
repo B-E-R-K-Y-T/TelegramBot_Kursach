@@ -38,7 +38,7 @@ def close_db():
 
 
 # Принимает SQL-запрос и выполняет его
-def inquiry_to_db(inquiry, iteration=1):
+def inquiry_to_db(inquiry, flag=False, iteration=1):
 
     """
     :param inquiry:
@@ -46,6 +46,8 @@ def inquiry_to_db(inquiry, iteration=1):
     :param iteration:
         Этот параметр отвечает за количество вызовов вывода результата метода
         на экран.
+    :param flag:
+        Указывает, надо ли выводить на экран отчет о запросе.
     :return:
         Ничего не возвращает.
     """
@@ -54,7 +56,8 @@ def inquiry_to_db(inquiry, iteration=1):
         with connection.cursor() as cursor:
             cursor.execute(inquiry)
             connection.commit()
-            for i in range(iteration):
-                print(cursor.fetchone())
+            if flag:
+                for i in range(iteration):
+                    print(cursor.fetchone())
     except Exception as e:
         print('ERROR[inquiry_to_db]: {}'.format(e))
