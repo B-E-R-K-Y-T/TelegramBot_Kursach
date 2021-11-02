@@ -112,9 +112,7 @@ def generation_db(path, inquiry):
         f.close()
         with open(path) as f:
             for i in range(count):
-                postgresql.inquiry_to_db("INSERT INTO public.{3} (id, id_message, dialogs) "
-                                         "values (000{0}, 0{1}, '{2}');".format(str(i), str(i),
-                                                                             f.readline(), str(inquiry)))
+                postgresql.inquiry_to_db(inquiry)
 
 
 def convert_file_to_db(dict_name, list_path):
@@ -137,11 +135,11 @@ def convert_file_to_db(dict_name, list_path):
                 if flag:
                     create_answer_question('data/file_{0}.txt'.format(str_dict),
                                            flag)
-                    generation_db('data/{0}.txt'.format(path), 'usr')
+                    generation_db('data/{0}.txt'.format(path), 'SELECT * FROM ai;')
                 else:
                     create_answer_question('data/file_{0}.txt'.format(str_dict),
                                            flag)
-                    generation_db('data/{0}.txt'.format(path), 'ai')
+                    generation_db('data/{0}.txt'.format(path), 'SELECT * FROM ai;')
             except Exception as e:
                 print(e)
 
