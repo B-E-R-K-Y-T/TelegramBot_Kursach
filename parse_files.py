@@ -23,18 +23,14 @@ def count_file_in_folder(path, file_name):
         Возвращает кол - во таких файлов в директории.
     """
 
-    try:
-        list_files = os.listdir(path)
-    except Exception as e:
-        print('count_file_in_folder: {}'.format(e))
-    else:
-        list_out = []
-        file_name = str(file_name)
-        for i in range(len(list_files)):
-            if file_name in str(list_files[i]):
-                list_out.append(str(list_files[i]))
+    list_files = os.listdir(path)
+    list_out = []
+    file_name = str(file_name)
+    for i in range(len(list_files)):
+        if file_name in str(list_files[i]):
+            list_out.append(str(list_files[i]))
 
-        return len(list_out)
+    return len(list_out)
 
 
 def count_lines_in_file(path):
@@ -73,7 +69,7 @@ def attach_file_to_file(path_from, names=[], path_to_save=str(os.getcwd())):
             print(f.read(), file=open(path_to_save + '/all_files_result.txt', 'a'), end='')
 
 
-def del_str_in_file(path, replace_from, replace_to):
+def replace_file(path, replace_from, replace_to):
 
     """
     Тот же replace только в масштабе файла.
@@ -134,5 +130,5 @@ def generation_sql_inquiry_to_db(path, inquiry):
 
 
 attach_file_to_file('data/dialogs_vk/', ['dialog0.txt', 'dialog1.txt', 'dialog2.txt'], 'data/')
-del_str_in_file('data/all_files_result.txt', 'Berkyt Berk [b_e_r_k_y_t]', '')
+replace_file('data/all_files_result.txt', 'Berkyt Berk [b_e_r_k_y_t]', '')
 del_space('data/all_files_result.txt')
