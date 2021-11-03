@@ -49,7 +49,7 @@ def count_lines_in_file(path):
         return count
 
 
-def attach_file_to_file(path_from, names=[], path_to_save=str(os.getcwd())):
+def attach_file_to_file(path_from, names=None, path_to_save=str(os.getcwd())):
 
     """
     Объединяет список файлов в один файл.
@@ -57,7 +57,7 @@ def attach_file_to_file(path_from, names=[], path_to_save=str(os.getcwd())):
     :param path_from:
         Путь до файлов.
     :param names:
-        Список названий этих файлов, включая их тип.
+        Список[] названий этих файлов, включая их тип.
     :param path_to_save:
         Путь, куда надо сохранять результирующий файл.
     :return:
