@@ -23,10 +23,11 @@ except Exception as e:
     print('ERROR[open_db]: {}'.format(e))
 
 
-# Закрывает БД
 def close_db():
 
     """
+    Закрывает БД
+
     :return:
         Ничего не возвращает.
     """
@@ -37,10 +38,11 @@ def close_db():
         print('ERROR[close_db]: {}'.format(e))
 
 
-# Принимает SQL-запрос и выполняет его
 def inquiry_to_db(inquiry, flag=False, iteration=1):
 
     """
+    Принимает SQL-запрос и выполняет его
+
     :param inquiry:
         Этот параметр принимает в себя string SQL-запрос.
     :param iteration:

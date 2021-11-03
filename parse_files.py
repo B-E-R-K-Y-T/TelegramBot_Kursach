@@ -9,8 +9,6 @@
 import os
 import postgresql
 
-# ----------------------------------------------------------------------------------------------------------------------
-
 
 def count_file_in_folder(path, file_name):
 
@@ -120,7 +118,7 @@ def del_space(path):
 def generation_sql_inquiry_to_db(path, inquiry):
 
     """
-    Делает sql-запрос от файла.
+    Делает sql-запрос столько же раз, сколько строк в файле.
 
     :param path:
         Принимает путь до файла к которому применить запрос.
@@ -131,9 +129,8 @@ def generation_sql_inquiry_to_db(path, inquiry):
     """
 
     count = count_lines_in_file(path)
-    with open(path) as f:
-        for i in range(count):
-            postgresql.inquiry_to_db(inquiry)
+    for i in range(count):
+        postgresql.inquiry_to_db(inquiry)
 
 
 attach_file_to_file('data/dialogs_vk/', ['dialog0.txt', 'dialog1.txt', 'dialog2.txt'], 'data/')
