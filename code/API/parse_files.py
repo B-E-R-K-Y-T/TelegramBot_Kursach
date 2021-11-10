@@ -7,7 +7,7 @@
 # ----------------------------------------------------------------------------------------------------------------------
 
 import os
-import postgresql
+from code.API import postgresql
 import codecs
 
 
