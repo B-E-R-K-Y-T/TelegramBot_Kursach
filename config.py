@@ -12,9 +12,32 @@ TOKEN = '2018372109:AAGvR5HUasGZPmrhxG6pAv_I7PXBBjmFTJ4'  # bot token (Токе�
 # PostgreSQL
 # ----------------------------------------------------------------------------------------------------------------------
 
-host = 'localhost'
-user = 'postgres'
-password = '1488'
-database = 'Telegram_Bot'
+operating_mode = 'Tim'
 
+host_ = ''
+user_ = ''
+password_ = ''
+database_ = ''
+
+if operating_mode == 'Tim':
+    host_ = 'localhost'
+    user_ = 'postgres'
+    password_ = '1488'
+    database_ = 'Telegram_Bot'
+elif operating_mode == 'Pol':
+    host_ = ''
+    user_ = ''
+    password_ = ''
+    database_ = ''
+elif operating_mode == 'San':
+    host_ = ''
+    user_ = ''
+    password_ = ''
+    database_ = ''
+
+
+host = host_
+user = user_
+password = password_
+database = database_
 # ----------------------------------------------------------------------------------------------------------------------
