@@ -66,7 +66,7 @@ def attach_file_to_file(path_from, names=None, path_to_save=str(os.getcwd())):
 
     for i in range(len(names)):
         with codecs.open(path_from + str(names[i]), 'r', 'utf_8_sig') as f:
-            print(f.read(), file=open(path_to_save + '/all_files_result.txt', 'a'), end='')
+            print(f.read(), file=codecs.open(path_to_save + '/all_files_result.txt', 'a', 'utf_8_sig'), end='')
 
 
 def replace_file(path, replace_from, replace_to):
@@ -85,7 +85,7 @@ def replace_file(path, replace_from, replace_to):
     """
 
     with codecs.open(path, 'r', 'utf_8_sig') as f:
-        print(f.read().replace(replace_from, replace_to), file=open(path + '_new', 'w'), end='')
+        print(f.read().replace(replace_from, replace_to), file=codecs.open(path + '_new', 'w', 'utf_8_sig'), end='')
 
 
 def del_space(path):
@@ -105,7 +105,7 @@ def del_space(path):
             if line.isspace():
                 continue
             else:
-                print(line, file=open(path + 'del_space_RESULT.txt', 'a'), end='')
+                print(line, file=codecs.open(path + 'del_space_RESULT.txt', 'a', 'utf_8_sig'), end='')
 
 
 def generation_sql_inquiry_to_db(path, inquiry):
@@ -129,6 +129,6 @@ def split_file(path):
     with codecs.open(path, 'r', 'utf_8_sig') as f:
         for (offset, line) in enumerate(f):
             if offset % 2 == 0:
-                print(line, file=open(path + '_question', 'a'), end='')
+                print(line, file=codecs.open(path + '_question', 'a', 'utf_8_sig'), end='')
             else:
-                print(line, file=open(path + '_answer', 'a'), end='')
+                print(line, file=codecs.open(path + '_answer', 'a', 'utf_8_sig'), end='')
