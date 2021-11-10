@@ -137,6 +137,16 @@ def generation_sql_inquiry_to_db(path, inquiry):
 
 
 def split_file(path):
+
+    """
+    Режет один файл на два через строку: _question и _answer
+
+    :param path:
+        Путь до файла
+    :return:
+        Ничего не возвращает.
+    """
+
     with codecs.open(path, 'r', 'utf_8') as f:
         for (offset, line) in enumerate(f):
             if offset % 2 == 0:
