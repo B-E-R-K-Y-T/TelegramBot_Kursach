@@ -2,7 +2,7 @@
 
 # ----------------------------------------------------------------------------------------------------------------------
 
-# API для добавления диалогов в PostgreSQL
+# API для работы с файлами
 
 # ----------------------------------------------------------------------------------------------------------------------
 
@@ -45,8 +45,7 @@ def count_lines_in_file(path):
     """
 
     with open(path, 'r') as f:
-        count = sum(1 for _ in f)
-        return count
+        return sum(1 for _ in f)
 
 
 def attach_file_to_file(path_from, names=None, path_to_save=str(os.getcwd())):
@@ -85,9 +84,7 @@ def replace_file(path, replace_from, replace_to):
     """
 
     with open(path, 'r') as f:
-        _str = f.read()
-        _str = _str.replace(replace_from, replace_to)
-        print(_str, file=open(path, 'w'), end='')
+        print(f.read().replace(replace_from, replace_to), file=open(path + '_new', 'w'), end='')
 
 
 def del_space(path):
@@ -102,8 +99,7 @@ def del_space(path):
     """
 
     with open(path, 'r') as f:
-        count_lines = count_lines_in_file(path)
-        for i in range(count_lines):
+        for i in range(count_lines_in_file(path)):
             line = str(f.readline())
             if line.isspace():
                 continue
@@ -124,9 +120,17 @@ def generation_sql_inquiry_to_db(path, inquiry):
         Ничего не возвращает.
     """
 
-    count = count_lines_in_file(path)
-    for i in range(count):
+    for i in range(count_lines_in_file(path)):
         postgresql.inquiry_to_db(inquiry)
+
+
+def split_file(path):
+    with open(path, 'r') as f:
+        for (offset, line) in enumerate(f):
+            if offset % 2 == 0:
+                print(line, file=open(path + '_question', 'a'), end='')
+            else:
+                print(line, file=open(path + 'answer', 'a'), end='')
 
 
 attach_file_to_file('data/dialogs_vk/', ['dialog0.txt', 'dialog1.txt', 'dialog2.txt'], 'data/')
