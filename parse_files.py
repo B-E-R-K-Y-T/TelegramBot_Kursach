@@ -8,6 +8,7 @@
 
 import os
 import postgresql
+import codecs
 
 
 def count_file_in_folder(path, file_name):
@@ -44,7 +45,7 @@ def count_lines_in_file(path):
         Возвращает кол - во строк.
     """
 
-    with open(path, 'r') as f:
+    with codecs.open(path, 'r', 'utf_8_sig') as f:
         return sum(1 for _ in f)
 
 
@@ -64,7 +65,7 @@ def attach_file_to_file(path_from, names=None, path_to_save=str(os.getcwd())):
     """
 
     for i in range(len(names)):
-        with open(path_from + str(names[i]), 'r') as f:
+        with codecs.open(path_from + str(names[i]), 'r', 'utf_8_sig') as f:
             print(f.read(), file=open(path_to_save + '/all_files_result.txt', 'a'), end='')
 
 
@@ -83,7 +84,7 @@ def replace_file(path, replace_from, replace_to):
         Ничего не возвращает.
     """
 
-    with open(path, 'r') as f:
+    with codecs.open(path, 'r', 'utf_8_sig') as f:
         print(f.read().replace(replace_from, replace_to), file=open(path + '_new', 'w'), end='')
 
 
@@ -98,7 +99,7 @@ def del_space(path):
         Ничего не возвращает.
     """
 
-    with open(path, 'r') as f:
+    with codecs.open(path, 'r', 'utf_8_sig') as f:
         for i in range(count_lines_in_file(path)):
             line = str(f.readline())
             if line.isspace():
@@ -125,7 +126,7 @@ def generation_sql_inquiry_to_db(path, inquiry):
 
 
 def split_file(path):
-    with open(path, 'r') as f:
+    with codecs.open(path, 'r', 'utf_8_sig') as f:
         for (offset, line) in enumerate(f):
             if offset % 2 == 0:
                 print(line, file=open(path + '_question', 'a'), end='')
