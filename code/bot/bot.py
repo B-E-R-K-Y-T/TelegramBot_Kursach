@@ -7,16 +7,15 @@ import random
 # import apiai
 # import json
 import telebot
-import postgresql
 
-import config
+from code.different import config
 
 bot = telebot.TeleBot(config.TOKEN)
 
-if os.path.exists('logs'):
+if os.path.exists('../../logs'):
     pass
 else:
-    os.mkdir('logs')
+    os.mkdir('../../logs')
 
 
 def stickers(name=None):
@@ -27,7 +26,7 @@ def stickers(name=None):
     # ------------------------------------------------------------------------------------------------------------------
     if len(list_name_sticker) == 0:
         print('Error: [The list is empty!]')
-        return open('error.webp', 'rb')
+        return open('../../error.webp', 'rb')
 
     list_file_sticker = []
     for i in range(len(list_name_sticker)):
@@ -48,7 +47,7 @@ def stickers(name=None):
             return list_file_sticker[index_sticker]
         except Exception as e:
             print('Error: [incorrect sticker! {0}]'.format(e))
-            return open('error.webp', 'rb')
+            return open('../../error.webp', 'rb')
 
     return list_file_sticker[random.randint(0, len(list_file_sticker) - 1)]
 

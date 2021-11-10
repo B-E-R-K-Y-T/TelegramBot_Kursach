@@ -7,7 +7,7 @@
 # ----------------------------------------------------------------------------------------------------------------------
 
 import psycopg2
-from config import host, user, password, database
+from code.different.config import host, user, password, database
 
 connection = None
 
