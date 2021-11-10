@@ -69,11 +69,13 @@ def attach_file_to_file(path_from, names=None, path_to_save=str(os.getcwd())):
             print(f.read(), file=codecs.open(path_to_save + '/all_files_result.txt', 'a', 'utf_8_sig'), end='')
 
 
-def replace_file(path, replace_from, replace_to):
+def replace_file(path, replace_from, replace_to, bool_list=False):
 
     """
     Тот же replace только в масштабе файла.
 
+    :param bool_list:
+        Проверка, является ли replace_from списком строк или строкой
     :param path:
         Путь до файла.
     :param replace_from:
@@ -85,7 +87,16 @@ def replace_file(path, replace_from, replace_to):
     """
 
     with codecs.open(path, 'r', 'utf_8_sig') as f:
-        print(f.read().replace(replace_from, replace_to), file=codecs.open(path + '_new', 'w', 'utf_8_sig'), end='')
+        if bool_list:
+            str_file = f.read()
+            for i in range(len(replace_from)):
+                str_file = str_file.replace(replace_from[i], replace_to)
+
+            print(str_file, file=codecs.open(path + '_new', 'w', 'utf_8_sig'), end='')
+
+        else:
+            print(f.read().replace(replace_from, replace_to),
+                  file=codecs.open(path + '_new', 'w', 'utf_8_sig'), end='')
 
 
 def del_space(path):
