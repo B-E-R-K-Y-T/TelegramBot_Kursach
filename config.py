@@ -25,19 +25,20 @@ if operating_mode == 'Tim':
     password_ = '1488'
     database_ = 'Telegram_Bot'
 elif operating_mode == 'Pol':
-    host_ = ''
-    user_ = ''
-    password_ = ''
-    database_ = ''
+    host_ = 'localhost'
+    user_ = 'postgres'
+    password_ = 'berkytsenpai'
+    database_ = 'berkyt'
 elif operating_mode == 'San':
-    host_ = ''
-    user_ = ''
-    password_ = ''
-    database_ = ''
+    host_ = 'localhost'
+    user_ = 'postgres'
+    password_ = 'Alex5405'
+    database_ = 'KURSACH'
 
 
 host = host_
 user = user_
 password = password_
 database = database_
+
 # ----------------------------------------------------------------------------------------------------------------------
