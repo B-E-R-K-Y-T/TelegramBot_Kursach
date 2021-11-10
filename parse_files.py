@@ -130,9 +130,4 @@ def split_file(path):
             if offset % 2 == 0:
                 print(line, file=open(path + '_question', 'a'), end='')
             else:
-                print(line, file=open(path + 'answer', 'a'), end='')
-
-
-attach_file_to_file('data/dialogs_vk/', ['dialog0.txt', 'dialog1.txt', 'dialog2.txt'], 'data/')
-replace_file('data/all_files_result.txt', 'Berkyt Berk [b_e_r_k_y_t]', '')
-del_space('data/all_files_result.txt')
+                print(line, file=open(path + '_answer', 'a'), end='')
