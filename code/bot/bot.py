@@ -25,6 +25,8 @@ if os.path.exists('../../logs'):
 else:
     os.mkdir('../../logs')
 
+print('234')
+
 
 def stickers(name=None):
     # СЮДА, ЧЕРЕЗ ЗАПЯТУЮ, ДОБАВЛЯЙ СТИКЕРЫ, НО ТОЛЬКО, СНАЧАЛА ДОБАВЬ ИХ В ПАПКУ С ПРОЕКТОМ!!!!
