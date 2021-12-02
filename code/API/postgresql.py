@@ -61,8 +61,6 @@ def inquiry_to_db(inquiry, flag=False):
             cursor.execute(inquiry)
             connection.commit()
             if flag:
-                result = cursor.fetchone()
-                print(result)
-                return result
+                return cursor.fetchone()
     except Exception as e:
         print('ERROR[inquiry_to_db]: {}'.format(e))

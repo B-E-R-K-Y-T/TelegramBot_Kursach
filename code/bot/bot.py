@@ -4,6 +4,12 @@
 
 # ======================================================================================================================
 
+# ----------------------------------------------------------------------------------------------------------------------
+
+# Начинка бота
+
+# ----------------------------------------------------------------------------------------------------------------------
+
 import os
 import random
 import telebot
@@ -12,34 +18,6 @@ from code.API import postgresql as ps
 from code.different import config
 
 bot = telebot.TeleBot(config.TOKEN)
-
-# list_r = ['Привет', 'Салам', 'Хэлло', 'Прив']
-# list_q = ['Привет!', 'Салам!', 'Прив']
-# for i in zip(list_q, list_r):
-#     print(i[0], i[1])
-#     ps.inquiry_to_db("""INSERT INTO public.hello (examples, responses) values ('{}', '{}')""".format(i[0], i[1]))
-
-
-BOT_CONFIG = {
-    'intents': {
-        'hello': {
-            'examples': ['Привет!', 'Салам!', 'Прив'],
-            'responses': ['Привет!', 'Салам!', 'Хэлло!']
-        },
-        'how_do_you_do': {
-            'examples': ['Как дела?', 'Что делаешь?'],
-            'responses': ['Хорошо дела!', 'Я норм', 'Дела - норм!']
-        },
-        'bye': {
-            'examples': ['Пока!', 'Удачи, бро!'],
-            'responses': ['Пока!', 'Удачи, бро!']
-        }
-    },
-    'failure_phrases': [
-        'Я ничего не понял!',
-        'Что-то непонятно.'
-    ]
-}
 
 if os.path.exists('../../logs'):
     pass
@@ -50,8 +28,8 @@ else:
 def stickers(name=None):
     # СЮДА, ЧЕРЕЗ ЗАПЯТУЮ, ДОБАВЛЯЙ СТИКЕРЫ, НО ТОЛЬКО, СНАЧАЛА ДОБАВЬ ИХ В ПАПКУ С ПРОЕКТОМ!!!!
     # ------------------------------------------------------------------------------------------------------------------
-    list_name_sticker = ['sticker_patriarch_1.webp', 'sticker_patriarch_2.webp',
-                         'sticker_putin_1.webp', 'sticker_putin_2.webp']
+    list_name_sticker = ['data/stickers/sticker_patriarch_1.webp', 'data/stickers/sticker_patriarch_2.webp',
+                         'data/stickers/sticker_putin_1.webp', 'data/stickers/sticker_putin_2.webp']
     # ------------------------------------------------------------------------------------------------------------------
     if len(list_name_sticker) == 0:
         print('Error: [The list is empty!]')
@@ -85,13 +63,39 @@ def stickers(name=None):
 def welcome(message):
     bot.send_sticker(message.chat.id, stickers())
     bot.send_message(message.chat.id, "Добро пожаловать, {0.first_name}!\n"
-                                      "Я - <b>{1.first_name}</b>, и я - русский!"
+                                      "Я - <b>{1.first_name}</b>, и я - добряк!"
                      .format(message.from_user, bot.get_me()), parse_mode='html')
 
 
 @bot.message_handler(content_types=['text'])
 def speak(message):
     text = str(message.text).lower()
+
+    def db_output(name_table):
+        list_smile = ['😂', '👋', '🤓', '😎', '😀', '😁']
+
+        for i in range(1, ps.inquiry_to_db(
+                """SELECT COUNT (id_) from public.{} having COUNT (id_) > 0;""".format(name_table),
+                flag=True)[0]):
+
+            print(text)
+            print(str(ps.inquiry_to_db(
+                """SELECT examples FROM {} WHERE id_ = {};""".format(name_table, i),
+                flag=True)).rstrip().lower()[2:-3])
+
+            if str(ps.inquiry_to_db(
+                    """SELECT examples FROM {} WHERE id_ = {};""".format(name_table, i),
+                    flag=True)).rstrip().lower()[2:-3] in text:
+
+                random_smile = ''
+                if not random.randint(0, 3):
+                    random_smile = random.choice(list_smile)
+
+                print_to_chat(str(ps.inquiry_to_db(
+                    """SELECT responses FROM {} ORDER BY random() LIMIT 1;""".format(name_table),
+                    flag=True))[2:-3] + random_smile)
+
+                return True
 
     def print_to_chat(output, type_out='t'):
         if type_out != 't' and type_out != 's':
@@ -104,29 +108,22 @@ def speak(message):
                 bot.send_sticker(message.chat.id, output)
 
     if message.chat.type == 'private':
-        for i in range(1, ps.inquiry_to_db(
-                """SELECT COUNT (id_) from public.hello having COUNT (id_) > 0;""",
-                flag=True)[0]):
+        list_table = ['hello', 'how_do_you_do', 'bye']
+        flag_default = False
 
-            if str(ps.inquiry_to_db(
-                    """SELECT examples FROM hello WHERE id_ = {};""".format(i),
-                    flag=True)).rstrip().lower()[2:-3] in text:
-
-                print_to_chat(str(ps.inquiry_to_db(
-                    """ SELECT responses FROM hello 
-                        ORDER BY random()
-                        LIMIT 1;""".format(),
-                    flag=True))[2:-3])
-
+        for i in list_table:
+            if db_output(i):
+                flag_default = False
                 break
-        else:
-                # Для случая, когда ничего не подошло
+            else:
+                flag_default = True
+
+        if flag_default:
             print_to_chat(str(ps.inquiry_to_db(
-                """ ;""".format(),
-                flag=True)))
+                """SELECT responses FROM default_ ORDER BY random() LIMIT 1;""".format(),
+                flag=True))[2:-3])
 
 
-
-# RUN BOT
 # postgresql.inquiry_to_db("INSERT INTO public.ai (id, id_message, dialogs) values (0002, 02, '😎');")
+# RUN BOT
 bot.polling(none_stop=True)
