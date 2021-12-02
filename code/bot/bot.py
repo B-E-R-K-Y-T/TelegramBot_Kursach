@@ -13,6 +13,7 @@
 import os
 import random
 import telebot
+import webbrowser
 
 from code.API import postgresql as ps
 from code.different import config
@@ -61,7 +62,7 @@ def stickers(name=None):
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
-    bot.send_sticker(message.chat.id, stickers())
+    # bot.send_sticker(message.chat.id, stickers())
     bot.send_message(message.chat.id, "Добро пожаловать, {0.first_name}!\n"
                                       "Я - <b>{1.first_name}</b>, и я - добряк!"
                      .format(message.from_user, bot.get_me()), parse_mode='html')
@@ -107,9 +108,16 @@ def speak(message):
             elif type_out == 's':
                 bot.send_sticker(message.chat.id, output)
 
+        # print('USER_NAME[ ' + str(message.from_user) + '] = ' + str(message.text) + '\n\t' +
+        #       'BOT[ ' + str(bot.get_me()) + '] = ' + str(output) + '\n',
+        #       file=open(r'logs/message_{0.first_name}_log.txt'.format(message.from_user), 'a'))
+
     if message.chat.type == 'private':
         list_table = ['hello', 'how_do_you_do', 'bye']
         flag_default = False
+
+        # print_to_chat()
+        # webbrowser.open('https://yandex.ru/search/?text={}'.format(text.replace(' ', '_')), new=2)
 
         for i in list_table:
             if db_output(i):
@@ -119,9 +127,15 @@ def speak(message):
                 flag_default = True
 
         if flag_default:
+            list_smile = ['😂', '👋', '🤓', '😎', '😀', '😁']
+
+            random_smile = ''
+            if not random.randint(0, 3):
+                random_smile = random.choice(list_smile)
+
             print_to_chat(str(ps.inquiry_to_db(
                 """SELECT responses FROM default_ ORDER BY random() LIMIT 1;""".format(),
-                flag=True))[2:-3])
+                flag=True))[2:-3] + random_smile)
 
 
 # postgresql.inquiry_to_db("INSERT INTO public.ai (id, id_message, dialogs) values (0002, 02, '😎');")
