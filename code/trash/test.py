@@ -1,6 +1,6 @@
-import codecs
+from code.API import postgresql as ps
 
-with codecs.open('data/dialogs_vk/dialog1.txtdel_space_RESULT.txt', 'r', 'utf_8_sig') as f:
-    print(f.read())
-
-
+ps.inquiry_to_db("""SELECT examples
+   FROM public.hello
+   ORDER BY examples DESC
+   OFFSET 0 ROWS FETCH NEXT 3 ROWS ONLY;""", flag=True)

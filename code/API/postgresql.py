@@ -10,6 +10,7 @@
 
 # ----------------------------------------------------------------------------------------------------------------------
 
+import pandas as pd
 import psycopg2
 from code.different.config import host, user, password, database
 
@@ -60,6 +61,8 @@ def inquiry_to_db(inquiry, flag=False):
             cursor.execute(inquiry)
             connection.commit()
             if flag:
-                print(cursor.fetchone())
+                result = cursor.fetchone()
+                print(result)
+                return result
     except Exception as e:
         print('ERROR[inquiry_to_db]: {}'.format(e))

@@ -13,11 +13,22 @@ from code.different import config
 
 bot = telebot.TeleBot(config.TOKEN)
 
+# list_r = ['Привет', 'Салам', 'Хэлло', 'Прив']
+# list_q = ['Привет!', 'Салам!', 'Прив']
+# for i in zip(list_q, list_r):
+#     print(i[0], i[1])
+#     ps.inquiry_to_db("""INSERT INTO public.hello (examples, responses) values ('{}', '{}')""".format(i[0], i[1]))
+
+
 BOT_CONFIG = {
     'intents': {
         'hello': {
-            'examples': ['Привет!', 'Салам!'],
-            'responses': ['Привет!', 'Салам!']
+            'examples': ['Привет!', 'Салам!', 'Прив'],
+            'responses': ['Привет!', 'Салам!', 'Хэлло!']
+        },
+        'how_do_you_do': {
+            'examples': ['Как дела?', 'Что делаешь?'],
+            'responses': ['Хорошо дела!', 'Я норм', 'Дела - норм!']
         },
         'bye': {
             'examples': ['Пока!', 'Удачи, бро!'],
@@ -93,18 +104,27 @@ def speak(message):
                 bot.send_sticker(message.chat.id, output)
 
     if message.chat.type == 'private':
-        # if text in str(BOT_CONFIG['intents']['hello']['responses']).rstrip().lower():
-        list_text = ['Привет!\n']
+        for i in range(1, ps.inquiry_to_db(
+                """SELECT COUNT (id_) from public.hello having COUNT (id_) > 0;""",
+                flag=True)[0]):
 
-        for element in list_text:
-            if text in str(ps.inquiry_to_db("""SELECT * FROM ai WHERE dialogs = '{}';""".format(element),
-                                            flag=True)).rstrip().lower():
-                print_to_chat(random.choice(BOT_CONFIG['intents']['hello']['responses']))
+            if str(ps.inquiry_to_db(
+                    """SELECT examples FROM hello WHERE id_ = {};""".format(i),
+                    flag=True)).rstrip().lower()[2:-3] in text:
+
+                print_to_chat(str(ps.inquiry_to_db(
+                    """ SELECT responses FROM hello 
+                        ORDER BY random()
+                        LIMIT 1;""".format(),
+                    flag=True))[2:-3])
+
                 break
-            else:
-                # print(ps.inquiry_to_db("""SELECT * FROM ai WHERE dialogs = 'Привет!\n';""", flag=True))
-                print_to_chat(random.choice(BOT_CONFIG['failure_phrases']))
-                break
+        else:
+                # Для случая, когда ничего не подошло
+            print_to_chat(str(ps.inquiry_to_db(
+                """ ;""".format(),
+                flag=True)))
+
 
 
 # RUN BOT

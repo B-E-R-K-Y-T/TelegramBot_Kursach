@@ -25,7 +25,7 @@ if operating_mode == 'Tim':
     host_ = 'localhost'
     user_ = 'postgres'
     password_ = '1488'
-    database_ = 'Telegram_Bot'
+    database_ = 'postgres'
 elif operating_mode == 'Pol':
     host_ = 'localhost'
     user_ = 'postgres'
