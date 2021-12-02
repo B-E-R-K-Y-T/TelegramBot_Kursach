@@ -38,16 +38,13 @@ def close_db():
         print('ERROR[close_db]: {}'.format(e))
 
 
-def inquiry_to_db(inquiry, flag=False, iteration=1):
+def inquiry_to_db(inquiry, flag=False):
 
     """
     Принимает SQL-запрос и выполняет его
 
     :param inquiry:
         Этот параметр принимает в себя string SQL-запрос.
-    :param iteration:
-        Этот параметр отвечает за количество вызовов вывода результата метода
-        на экран.
     :param flag:
         Указывает, надо ли выводить на экран отчет о запросе.
     :return:
@@ -59,7 +56,6 @@ def inquiry_to_db(inquiry, flag=False, iteration=1):
             cursor.execute(inquiry)
             connection.commit()
             if flag:
-                for i in range(iteration):
-                    print(cursor.fetchone())
+                print(cursor.fetchone())
     except Exception as e:
         print('ERROR[inquiry_to_db]: {}'.format(e))

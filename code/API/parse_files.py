@@ -24,14 +24,12 @@ def count_file_in_folder(path, file_name):
         Возвращает кол - во таких файлов в директории.
     """
 
-    list_files = os.listdir(path)
-    list_out = []
-    file_name = str(file_name)
-    for i in range(len(list_files)):
-        if file_name in str(list_files[i]):
-            list_out.append(str(list_files[i]))
+    file_name, count_file = str(file_name), 0
+    for i in range(len(os.listdir(path))):
+        if file_name in str(os.listdir(path)[i]):
+            count_file += 1
 
-    return len(list_out)
+    return count_file + 1
 
 
 def count_lines_in_file(path):
