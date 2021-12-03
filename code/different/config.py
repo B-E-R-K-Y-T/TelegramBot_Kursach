@@ -7,8 +7,8 @@
 # Telegram-bot
 # ----------------------------------------------------------------------------------------------------------------------
 
-# TOKEN = '2018372109:AAGvR5HUasGZPmrhxG6pAv_I7PXBBjmFTJ4'  # bot token (Токен Никиты)
-TOKEN = '5031531221:AAGlppHOn3uHPEsG7GHgNJIIwRd4am-yetU'  #
+TOKEN = '2018372109:AAGvR5HUasGZPmrhxG6pAv_I7PXBBjmFTJ4'  # bot token (Токен Никиты)
+# TOKEN = '5031531221:AAGlppHOn3uHPEsG7GHgNJIIwRd4am-yetU'  #
 
 # ----------------------------------------------------------------------------------------------------------------------
 
