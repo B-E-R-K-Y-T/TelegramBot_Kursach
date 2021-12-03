@@ -70,6 +70,19 @@ def welcome(message):
                      .format(message.from_user, bot.get_me()), parse_mode='html')
 
 
+# Для Самсора!
+# ----------------------------------------------------------------------------------------------------------------------
+@bot.message_handler(commands=['add_q'])
+def add_q(message):
+    bot.send_message(message.chat.id, 'Команда "add_q" работает!')
+
+
+@bot.message_handler(commands=['add_r'])
+def add_r(message):
+    bot.send_message(message.chat.id, 'Команда "add_r" работает!')
+# ----------------------------------------------------------------------------------------------------------------------
+
+
 @bot.message_handler(content_types=['text'])
 def speak(message):
     text = str(message.text).lower()
